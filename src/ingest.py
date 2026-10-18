@@ -85,12 +85,38 @@ def _text_flags(text: str, image_count: int, minimum: int) -> list[str]:
         flags.append("low_text")
         if image_count:
             flags.append("image_without_substantive_text")
-    if "\ufffd" in text or sum("\ue000" <= character <= "\uf8ff" for character in text) >= 3:
+    # Font-encoded symbols and unexpected control characters need review.
+    # Preserve them in extracted text rather than guessing their meaning.
+    has_unreadable_symbols = any(
+        character == "\ufffd"
+        or "\ue000" <= character <= "\uf8ff"
+        or (ord(character) < 32 and character not in "\t\n\r")
+        or ord(character) == 127
+        for character in text
+    )
+    if has_unreadable_symbols:
         flags.append("unicode_review")
     words = re.findall(r"[A-Za-z]+", text)
     if len(words) >= 80 and sum(len(word) == 1 for word in words) / len(words) > 0.35:
         flags.append("fragmented_word_spacing")
     return flags
+
+
+def extract_page_text(page) -> str:
+    """Keep text blocks together in the PDF's stored block order."""
+    paragraphs = []
+
+    for block in page.get_text("blocks", sort=False):
+        # Block type 0 contains text.
+        if block[6] != 0:
+            continue
+
+        text = block[4].strip()
+
+        if text:
+            paragraphs.append(text)
+
+    return "\n\n".join(paragraphs)
 
 
 def extract_book(book: dict, project_root: Path, output_dir: Path, *,
@@ -151,7 +177,7 @@ def extract_book(book: dict, project_root: Path, output_dir: Path, *,
                 for page_index in range(document.page_count):
                     current_page = page_index + 1
                     page = document.load_page(page_index)
-                    text = page.get_text("text", sort=True)
+                    text = extract_page_text(page)
                     image_count = len(page.get_image_info())
                     flags = _text_flags(text, image_count, minimum_text_characters)
                     alphanumeric = sum(character.isalnum() for character in text)
@@ -241,7 +267,14 @@ def run_ingestion(project_root: Path, config_path: Path | None = None,
     report = {
         "started_at": datetime.now(ZoneInfo("Africa/Lusaka")).isoformat(),
         "stage": "page_text_extraction",
-        "extractor": {"library": "PyMuPDF", "version": pymupdf.VersionBind, "sort": True, "ocr": False},
+        "extractor": {
+            "library": "PyMuPDF",
+            "version": pymupdf.VersionBind,
+            "method": "text_blocks",
+            "reading_order": "pdf_block_order",
+            "sort": False,
+            "ocr": False,
+        },
         "manifest_file": manifest_path.relative_to(root).as_posix(),
         "page_reference_type": "pdf_position",
         "printed_page_numbers_verified": False,

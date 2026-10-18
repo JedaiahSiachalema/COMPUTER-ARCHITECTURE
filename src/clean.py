@@ -44,7 +44,18 @@ PAGE_NUMBER = re.compile(r"^\s*(?:page\s+)?(?:\d{1,4}|[ivxlc]{1,6})\s*$", re.I)
 
 LIGATURES = {"\ufb00": "ff", "\ufb01": "fi", "\ufb02": "fl", "\ufb03": "ffi",
              "\ufb04": "ffl", "\ufb05": "st", "\ufb06": "st"}
-STRIP_CHARS = re.compile("[\ue000-\uf8ff\ufffd\u00ad\u200b\u200c\u200d\ufeff]")
+# Remove invisible formatting characters.
+STRIP_CHARS = re.compile("[\u00ad\u200b\u200c\u200d\ufeff]")
+
+# Preserve suspicious symbols so we can identify and review them.
+REVIEW_CHARS = re.compile("[\ue000-\uf8ff\ufffd]")
+
+# Temporarily exclude pages with these unresolved extraction problems.
+BLOCKING_QUALITY_FLAGS = {
+    "fragmented_word_spacing",
+    "unicode_review",
+    "image_without_substantive_text",
+}
 
 
 def normalize(text: str) -> str:
@@ -118,13 +129,28 @@ def clean_book(source: Path) -> dict:
     for record, text in zip(records, normalized):
         cleaned = clean_page(text, headers, stats)
         alnum = sum(c.isalnum() for c in cleaned)
-        flags = list(record.get("quality_flags", []))
+        flags = set(record.get("quality_flags", []))
+
+        # Check original text for suspicious symbols.
+        if REVIEW_CHARS.search(record["text"]):
+            flags.add("unicode_review")
+
+        blocked_flags = flags & BLOCKING_QUALITY_FLAGS
+        exclusion_reasons = sorted(blocked_flags)
+
+        if alnum < MIN_ALNUM:
+            exclusion_reasons.append("insufficient_clean_text")
+
         record["raw_character_count"] = record["character_count"]
         record["text"] = cleaned
         record["character_count"] = len(cleaned)
         record["alphanumeric_characters"] = alnum
-        record["usable"] = alnum >= MIN_ALNUM
+        record["quality_flags"] = sorted(flags)
+
         record["needs_respacing"] = "fragmented_word_spacing" in flags
+        record["review_required"] = bool(blocked_flags)
+        record["exclusion_reasons"] = exclusion_reasons
+        record["usable"] = not exclusion_reasons
         if not record["usable"]:
             unusable.append(record["pdf_page"])
     book_id = records[0]["book_id"]

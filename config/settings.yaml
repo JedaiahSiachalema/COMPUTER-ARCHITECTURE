@@ -16,8 +16,14 @@ sources:
   ocr_enabled: false
 
 embedding:
-  model_id: null
-  revision: null
+  model_name: "BAAI/bge-small-en-v1.5"
+  revision: "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a"
+  device: "cpu"
+  batch_size: 8
+  normalize: true
+  document_prefix: ""
+  query_prefix: "Represent this sentence for searching relevant passages: "
+  include_section: false
 
 generation:
   model_id: null
@@ -27,8 +33,8 @@ ingestion:
   minimum_text_characters: 40
 
 chunking:
-  size_tokens: null
-  overlap_tokens: null
+  size_tokens: 400
+  overlap_tokens: 50
 
 retrieval:
   top_k: 5
