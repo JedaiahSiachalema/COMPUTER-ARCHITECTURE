@@ -12,4 +12,7 @@ peft==0.21.2
 accelerate==1.15.0
 streamlit==1.66.0
 pytest==8.4.2
-PyYAML==6.0.3
+pwd
+ls
+ls src
+ls testsPyYAML==6.0.3
