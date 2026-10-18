@@ -1,0 +1,49 @@
+{
+  "checked_on": "2026-10-18",
+  "scope": "Environment compatibility using synthetic data only",
+  "python_executable": "C:\\Users\\Billy\\Documents\\.venv\\Scripts\\python.exe",
+  "python_version": "3.12.10",
+  "gpu": {
+    "name": "Quadro M2000M",
+    "compute_capability": [
+      5,
+      0
+    ],
+    "cuda_runtime": "11.8"
+  },
+  "packages": {
+    "torch": "2.7.1+cu118",
+    "numpy": "2.5.3",
+    "transformers": "5.17.0",
+    "PyMuPDF": "1.26.5",
+    "sentence-transformers": "6.1.0",
+    "faiss-cpu": "1.15.1",
+    "peft": "0.21.2",
+    "accelerate": "1.15.0",
+    "streamlit": "1.66.0",
+    "pytest": "8.4.2",
+    "PyYAML": "6.0.3"
+  },
+  "existing_package_versions_preserved": 86,
+  "new_packages_verified": 23,
+  "checks": {
+    "project_dependency_closure": "passed",
+    "project_dependency_packages_checked": 74,
+    "imports": "passed",
+    "torch_numpy_interop": "passed",
+    "faiss_search": "passed",
+    "synthetic_transformer_lora_gpu_gradients": "passed",
+    "configuration": "passed"
+  },
+  "shared_environment_pip_check": {
+    "status": "Existing unrelated issues",
+    "messages": [
+      "easyocr 1.7.2 requires opencv-python-headless, which is not installed.",
+      "fast-plate-ocr 1.1.0 requires opencv-python-headless, which is not installed."
+    ],
+    "action": "Existing OCR packages left unchanged."
+  },
+  "pretrained_models_downloaded": false,
+  "book_ingestion_started": false,
+  "assignment_training_started": false
+}

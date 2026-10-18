@@ -1,0 +1,44 @@
+# Local Python environment and caches
+.venv/
+venv/
+__pycache__/
+*.py[cod]
+.pytest_cache/
+.mypy_cache/
+.ruff_cache/
+.coverage
+htmlcov/
+
+# Credentials and local environment settings
+.env
+.env.*
+!.env.example
+
+# Books and excluded sources
+books/
+*.pdf
+*.epub
+*.djvu
+ignored/*
+!ignored/.gitkeep
+
+# Existing local extraction and scratch material
+output/
+tmp/
+
+# Generated book text and local indexes
+data/extracted/
+data/cleaned/
+data/chunks/
+data/passages.jsonl
+data/book_manifest.backup.json
+artifacts/index/*
+!artifacts/index/.gitkeep
+*.faiss
+*.npy
+
+# Large model artifacts require an approved sharing method
+*.safetensors
+*.ckpt
+*.pt
+*.pth

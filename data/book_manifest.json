@@ -1,0 +1,962 @@
+[
+  {
+    "book_id": "G090_BOOK_001",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Advanced Computer Architecture and Parallel Processing",
+    "author": [
+      "Hesham El-Rewini",
+      "Mostafa Abd-El-Barr"
+    ],
+    "edition": null,
+    "publisher": "John Wiley & Sons, Inc.",
+    "year": 2005,
+    "year_basis": "Copyright year printed in the PDF.",
+    "isbn": "0471467405",
+    "alternate_isbns": [],
+    "file_path": "books/Advanced Computer Architecture and Parallel Processing.pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 287,
+    "sha256": "6bc5e8bc2c08b5c8292c628f12ed36337bf1c639d372489ab69073402850284a",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      72,
+      144,
+      216,
+      278
+    ],
+    "metadata_pdf_pages": [
+      4,
+      5
+    ],
+    "notes": [
+      "No numbered edition is stated on the inspected bibliographic pages.",
+      "Use the printed ISBN; the PDF metadata Subject contains a different number.",
+      "Repeated TEAM LinG watermarks will need cleaning."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_001.pages.jsonl",
+      "pages_written": 287,
+      "empty_text_page_count": 1,
+      "low_text_page_count": 1,
+      "image_without_text_page_count": 1,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_002",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Structured Computer Organization",
+    "author": [
+      "Andrew S. Tanenbaum",
+      "Todd Austin"
+    ],
+    "edition": "Sixth edition",
+    "publisher": "Pearson Education, Inc., publishing as Prentice Hall",
+    "year": 2013,
+    "year_basis": "Current-edition copyright and cataloging year.",
+    "isbn": "9780132916523",
+    "alternate_isbns": [
+      {
+        "isbn": "0132916525",
+        "description": "ISBN-10 for this edition."
+      }
+    ],
+    "file_path": "books/Andrew S. Tanenbaum - Structured Computer Organization.pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 801,
+    "sha256": "b213692a064ad0273e2099d62df9bbcdd2b71643afdb279adc008a9f14b3bd5d",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      201,
+      401,
+      601,
+      792
+    ],
+    "metadata_pdf_pages": [
+      4,
+      5
+    ],
+    "notes": [
+      "Both authors are listed on the title page; the filename lists only Tanenbaum."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_002.pages.jsonl",
+      "pages_written": 801,
+      "empty_text_page_count": 1,
+      "low_text_page_count": 14,
+      "image_without_text_page_count": 1,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_003",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Code: The Hidden Language of Computer Hardware and Software",
+    "author": [
+      "Charles Petzold"
+    ],
+    "edition": "Second edition",
+    "publisher": "Pearson Education, Inc.",
+    "year": 2023,
+    "year_basis": "Copyright year printed in the PDF; publication year not independently established.",
+    "isbn": "9780137909100",
+    "alternate_isbns": [
+      {
+        "isbn": "0137909101",
+        "description": "ISBN-10 for this edition."
+      }
+    ],
+    "file_path": "books/Code.The.Hidden.Language.of.Computer.Hardware.and.Software.2nd.Edition.2022.7.pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 481,
+    "sha256": "b1f814d0b634ef3198c8484bc3bbbc7692d6dfb3a70b0b902d2d99502a285225",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      121,
+      241,
+      361,
+      472
+    ],
+    "metadata_pdf_pages": [
+      2,
+      3
+    ],
+    "notes": [
+      "The filename suggests 2022, while the copyright page states 2023.",
+      "Published with the authorization of Microsoft Corporation.",
+      "Repeated ptg38990134 watermarks and ornamental glyph codes will need cleaning."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_003.pages.jsonl",
+      "pages_written": 481,
+      "empty_text_page_count": 1,
+      "low_text_page_count": 13,
+      "image_without_text_page_count": 1,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_004",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Computer Design and Architecture",
+    "author": [
+      "Sajjan G. Shiva"
+    ],
+    "edition": "Third edition, revised and expanded",
+    "publisher": "Marcel Dekker, Inc.",
+    "year": 2000,
+    "year_basis": "Copyright year printed in the PDF.",
+    "isbn": "0824703685",
+    "alternate_isbns": [],
+    "file_path": "books/Computer Design and Architecture.pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 730,
+    "sha256": "0da1313d630501a09ce080f3c6286669c1e9176ebc79ba66859baa781788c22f",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      183,
+      366,
+      548,
+      721
+    ],
+    "metadata_pdf_pages": [
+      1,
+      2,
+      6,
+      8
+    ],
+    "notes": [
+      "The image-only cover was visually checked; the body has extractable text.",
+      "The preface also identifies the third edition.",
+      "A sampled interior page has little extracted text; inspect technical diagrams and affected pages during ingestion."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_004.pages.jsonl",
+      "pages_written": 730,
+      "empty_text_page_count": 9,
+      "low_text_page_count": 26,
+      "image_without_text_page_count": 17,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_005",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Computer Organization and Embedded Systems",
+    "author": [
+      "Carl Hamacher",
+      "Zvonko Vranesic",
+      "Safwat Zaky",
+      "Naraig Manjikian"
+    ],
+    "edition": "Sixth edition",
+    "publisher": "McGraw-Hill",
+    "year": 2012,
+    "year_basis": "Copyright and cataloging year printed in the PDF.",
+    "isbn": "9780073380650",
+    "alternate_isbns": [
+      {
+        "isbn": "0073380652",
+        "description": "ISBN-10/MHID for this edition."
+      }
+    ],
+    "file_path": "books/Computer Organisation and embedded Systems Sixth edition Carl Hamacher.pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 735,
+    "sha256": "8106bdca7a73060b83534a835c8420f90bb7f4b26817d42f1f63681eea6873a3",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      184,
+      368,
+      552,
+      726
+    ],
+    "metadata_pdf_pages": [
+      6,
+      7
+    ],
+    "notes": [
+      "Previously named CS12.pdf; the current file path is recorded below.",
+      "Use the printed title and ISBN rather than the filename spelling or PDF metadata title.",
+      "Production timestamps and typesetting headers will need cleaning."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_005.pages.jsonl",
+      "pages_written": 735,
+      "empty_text_page_count": 1,
+      "low_text_page_count": 17,
+      "image_without_text_page_count": 1,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_006",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Computer Systems: A Programmer's Perspective",
+    "author": [
+      "Randal E. Bryant",
+      "David R. O'Hallaron"
+    ],
+    "edition": "Third edition, Global Edition",
+    "publisher": "Pearson Education Limited",
+    "year": 2016,
+    "year_basis": "Copyright year printed in the PDF.",
+    "isbn": "9781488672071",
+    "alternate_isbns": [
+      {
+        "isbn": "9781292101767",
+        "description": "Print ISBN for the Global Edition."
+      },
+      {
+        "isbn": "1292101768",
+        "description": "ISBN-10 for the Global Edition."
+      }
+    ],
+    "file_path": "books/Computer Systems A Programmers Perspective (3rd).pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 1122,
+    "sha256": "321352279a3e530f67ad6ef9cb2dc820ad072324ab474a2a16af31cdb73abdb9",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      281,
+      562,
+      842,
+      1113
+    ],
+    "metadata_pdf_pages": [
+      1,
+      4,
+      5
+    ],
+    "notes": [
+      "The main ISBN is explicitly labelled PDF on the copyright page.",
+      "This is the Global Edition, not the United States edition."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_006.pages.jsonl",
+      "pages_written": 1122,
+      "empty_text_page_count": 0,
+      "low_text_page_count": 11,
+      "image_without_text_page_count": 0,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_007",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Computer Architecture: A Quantitative Approach",
+    "author": [
+      "John L. Hennessy",
+      "David A. Patterson"
+    ],
+    "edition": "Fifth edition",
+    "publisher": "Morgan Kaufmann (Elsevier)",
+    "year": 2012,
+    "year_basis": "Copyright year printed in the PDF.",
+    "isbn": "9780123838728",
+    "alternate_isbns": [],
+    "file_path": "books/computer-architecture-a-quantitative-approach-5th-edition-by-john-l-hennessy-and-david-a-patterson.pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 1354,
+    "sha256": "2fe5a34d8f4694a083ec8a6251ed7dd98fe873ac303a445b09db2a3d80885452",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      339,
+      678,
+      1016,
+      1345
+    ],
+    "metadata_pdf_pages": [
+      4,
+      6,
+      7
+    ],
+    "notes": [
+      "This is the text-extractable copy; the excluded scanned copy is not listed as another book."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_007.pages.jsonl",
+      "pages_written": 1354,
+      "empty_text_page_count": 1,
+      "low_text_page_count": 4,
+      "image_without_text_page_count": 1,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_008",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Computer Organization and Design: The Hardware/Software Interface",
+    "author": [
+      "David A. Patterson",
+      "John L. Hennessy"
+    ],
+    "edition": "ARM edition",
+    "publisher": "Morgan Kaufmann (Elsevier)",
+    "year": 2017,
+    "year_basis": "Copyright year printed in the PDF.",
+    "isbn": "9780128017333",
+    "alternate_isbns": [],
+    "file_path": "books/Computer-Organization-and-Design-The-Hardware-Software-Interface-ARM-Edition.pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 1074,
+    "sha256": "991116441b9d966384b69565479b40f7592bb99a8560788f1c2939d5f7d944f4",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      269,
+      538,
+      806,
+      1065
+    ],
+    "metadata_pdf_pages": [
+      4,
+      6,
+      7
+    ],
+    "related_book_ids": [
+      "G090_BOOK_009"
+    ],
+    "notes": [
+      "ARM variant with its own ISBN; no ordinal edition number is stated.",
+      "Confirm with the coordinator whether this and the RISC-V variant count as separate books."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_008.pages.jsonl",
+      "pages_written": 1074,
+      "empty_text_page_count": 4,
+      "low_text_page_count": 12,
+      "image_without_text_page_count": 4,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_009",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Computer Organization and Design: The Hardware/Software Interface",
+    "author": [
+      "David A. Patterson",
+      "John L. Hennessy"
+    ],
+    "edition": "RISC-V edition",
+    "publisher": "Morgan Kaufmann (Elsevier)",
+    "year": 2018,
+    "year_basis": "Copyright year printed in the PDF.",
+    "isbn": "9780128122754",
+    "alternate_isbns": [],
+    "file_path": "books/Computer-Organization-and-Design-The-Hardware-Software-Interface-RISC-V-Edition.pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 1049,
+    "sha256": "1cb623a22efa409acafe6d0d2b089e6041346a81798572d21d1626714d525cea",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      263,
+      525,
+      787,
+      1040
+    ],
+    "metadata_pdf_pages": [
+      4,
+      6,
+      7
+    ],
+    "related_book_ids": [
+      "G090_BOOK_008"
+    ],
+    "notes": [
+      "RISC-V variant with its own ISBN; no ordinal edition number is stated.",
+      "Confirm with the coordinator whether this and the ARM variant count as separate books.",
+      "Andrew S. Waterman and Yunsup Lee are separately credited for RISC-V updates and contributions."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_009.pages.jsonl",
+      "pages_written": 1049,
+      "empty_text_page_count": 4,
+      "low_text_page_count": 10,
+      "image_without_text_page_count": 4,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_010",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Digital Design and Computer Architecture",
+    "author": [
+      "Sarah L. Harris",
+      "David Money Harris"
+    ],
+    "edition": "ARM edition",
+    "publisher": "Morgan Kaufmann (Elsevier)",
+    "year": 2016,
+    "year_basis": "Copyright year printed in the PDF.",
+    "isbn": "9780128000564",
+    "alternate_isbns": [],
+    "file_path": "books/Digital Design and Computer Architecture. ARM Edition by Sarah Harris, David Harris.pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 711,
+    "sha256": "7fd9efeeb0744004d41487d841c3d934e04dd2be5ba5961c063517cccf9fc1e7",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      178,
+      356,
+      534,
+      702
+    ],
+    "metadata_pdf_pages": [
+      3,
+      4,
+      5
+    ],
+    "notes": [
+      "No ordinal edition number is stated on the inspected bibliographic pages."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_010.pages.jsonl",
+      "pages_written": 711,
+      "empty_text_page_count": 8,
+      "low_text_page_count": 9,
+      "image_without_text_page_count": 8,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_011",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Memory Systems: Cache, DRAM, Disk",
+    "author": [
+      "Bruce Jacob",
+      "Spencer W. Ng",
+      "David T. Wang"
+    ],
+    "edition": null,
+    "publisher": "Morgan Kaufmann (Elsevier)",
+    "year": 2008,
+    "year_basis": "Copyright year printed in the PDF.",
+    "isbn": "9780123797513",
+    "alternate_isbns": [],
+    "file_path": "books/Memory systems Cache DRAM Disk.pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 1017,
+    "sha256": "00c7e829cbc3fe5959d5d40366c3a262ad0bc58d818e8f462a7eaccd43779052",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      255,
+      509,
+      763,
+      1008
+    ],
+    "metadata_pdf_pages": [
+      4,
+      6,
+      7
+    ],
+    "notes": [
+      "No edition statement is present on the inspected bibliographic pages.",
+      "Samuel Rodriguez is separately credited for contributions."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_011.pages.jsonl",
+      "pages_written": 1017,
+      "empty_text_page_count": 1,
+      "low_text_page_count": 21,
+      "image_without_text_page_count": 1,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_012",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Modern Processor Design: Fundamentals of Superscalar Processors",
+    "author": [
+      "John Paul Shen",
+      "Mikko H. Lipasti"
+    ],
+    "edition": null,
+    "publisher": "Waveland Press, Inc.",
+    "year": 2013,
+    "year_basis": "The copyright page explicitly identifies a 2013 Waveland reissue.",
+    "copyright_year": 2005,
+    "isbn": "9781478607830",
+    "alternate_isbns": [
+      {
+        "isbn": "1478607831",
+        "description": "ISBN-10 printed on the copyright page."
+      }
+    ],
+    "file_path": "books/Modern Processor Design_ Fundamentals of Superscalar Processors ( PDFDrive ).pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 658,
+    "sha256": "046a722a832c4b0b9288230319d41e6550e2c7a932aaa766fbac4b0279d0ebd2",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      165,
+      330,
+      494,
+      649
+    ],
+    "metadata_pdf_pages": [
+      2,
+      3,
+      5
+    ],
+    "notes": [
+      "This file is the Waveland 2013 reissue of the 2005 copyrighted work.",
+      "No numbered edition statement was found on the inspected bibliographic pages."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_012.pages.jsonl",
+      "pages_written": 658,
+      "empty_text_page_count": 7,
+      "low_text_page_count": 7,
+      "image_without_text_page_count": 7,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_013",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Parallel Computer Architecture: A Hardware / Software Approach",
+    "author": [
+      "David Culler",
+      "Jaswinder Pal Singh"
+    ],
+    "edition": null,
+    "publisher": "Morgan Kaufmann Publishers",
+    "year": 1997,
+    "year_basis": "The preliminary draft is dated August 1997 and states copyright 1997.",
+    "isbn": null,
+    "alternate_isbns": [],
+    "file_path": "books/Parallel Computer Architecture.pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 877,
+    "sha256": "7dda02269d11824e71f7ba6a7cf303c2f2433696efdc199d1e9770ea7c8824be",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      220,
+      439,
+      658,
+      868
+    ],
+    "metadata_pdf_pages": [
+      1,
+      3
+    ],
+    "document_version": "Preliminary draft",
+    "contributors": [
+      {
+        "name": "Anoop Gupta",
+        "role": "Credited as 'with Anoop Gupta' on the title page."
+      }
+    ],
+    "notes": [
+      "This is a preliminary draft of a forthcoming book, not the final published edition.",
+      "Coordinator acceptance of this draft must be confirmed.",
+      "No ISBN or numbered edition was found on the inspected preliminary pages."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_013.pages.jsonl",
+      "pages_written": 877,
+      "empty_text_page_count": 0,
+      "low_text_page_count": 2,
+      "image_without_text_page_count": 0,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_014",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Principles of Computer Hardware",
+    "author": [
+      "Alan Clements"
+    ],
+    "edition": "Fourth edition",
+    "publisher": "Oxford University Press",
+    "year": 2006,
+    "year_basis": "The copyright page identifies the fourth edition as 2006-01-18.",
+    "isbn": "9780199273133",
+    "alternate_isbns": [
+      {
+        "isbn": "0199273138",
+        "description": "ISBN-10 printed alongside the ISBN-13."
+      }
+    ],
+    "file_path": "books/Principles of Computer Hardware.pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 705,
+    "sha256": "9143743bd6fc507f61b614e89ef6ea00af168c1acac25159533c788c4c4adec1",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      177,
+      353,
+      529,
+      696
+    ],
+    "metadata_pdf_pages": [
+      1,
+      2
+    ],
+    "notes": [],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_014.pages.jsonl",
+      "pages_written": 705,
+      "empty_text_page_count": 0,
+      "low_text_page_count": 3,
+      "image_without_text_page_count": 3,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_015",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Computer Organization and Architecture: Designing for Performance",
+    "author": [
+      "William Stallings"
+    ],
+    "edition": "Eighth edition",
+    "publisher": "Pearson Prentice Hall",
+    "year": 2010,
+    "year_basis": "Latest edition copyright shown on the copyright page.",
+    "isbn": "9780136073734",
+    "alternate_isbns": [
+      {
+        "isbn": "0136073735",
+        "description": "ISBN-10 printed on the copyright page."
+      }
+    ],
+    "file_path": "books/Textbook-TIF203-Ebook-William-Stallings-Designing-for-Performance-8th-Edition-Prentice-Hall-2011.pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 881,
+    "sha256": "72a7565118f84e6a88ca50997583e50b2a8b43f6106ef73ed0079ece26a421c2",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      221,
+      441,
+      661,
+      872
+    ],
+    "metadata_pdf_pages": [
+      2,
+      3
+    ],
+    "notes": [
+      "The filename suggests 2011, while the copyright page supports 2010."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_015.pages.jsonl",
+      "pages_written": 881,
+      "empty_text_page_count": 1,
+      "low_text_page_count": 4,
+      "image_without_text_page_count": 1,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_016",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "The Architecture of Computer Hardware, Systems Software, & Networking: An Information Technology Approach",
+    "author": [
+      "Irv Englander"
+    ],
+    "edition": "Fifth edition",
+    "publisher": "John Wiley & Sons, Inc.",
+    "year": 2014,
+    "year_basis": "Current-edition copyright and cataloging year printed in the PDF.",
+    "isbn": "9781118322635",
+    "alternate_isbns": [],
+    "file_path": "books/The Architecture of Computer Hardware, Systems Software, and Networking_ An Information Technology Approach, Fifth Edition ( PDFDrive ).pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 699,
+    "sha256": "243ef7f32a6927fe96b78d692bde20a181e8f731e1cdb13e01a02eb77f5fd17d",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      175,
+      350,
+      525,
+      690
+    ],
+    "metadata_pdf_pages": [
+      3,
+      4
+    ],
+    "notes": [
+      "The printed ISBN identifies the paper edition.",
+      "December 2013 typesetting timestamps are production details."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_016.pages.jsonl",
+      "pages_written": 699,
+      "empty_text_page_count": 8,
+      "low_text_page_count": 9,
+      "image_without_text_page_count": 3,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_017",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "The Elements of Computing Systems: Building a Modern Computer from First Principles",
+    "author": [
+      "Noam Nisan",
+      "Shimon Schocken"
+    ],
+    "edition": "Second edition",
+    "publisher": "The MIT Press",
+    "year": 2021,
+    "year_basis": "Copyright year and catalog publication description.",
+    "isbn": "9780262539807",
+    "alternate_isbns": [],
+    "file_path": "books/The Elements of Computing Systems 2nd.pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 427,
+    "sha256": "4faf69ef28c65cd42905c572611a3d9f77e01f72f927b8d252eae104fb462f91",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      107,
+      214,
+      321,
+      418
+    ],
+    "metadata_pdf_pages": [
+      2,
+      3
+    ],
+    "notes": [
+      "The printed ISBN identifies the paperback edition."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_017.pages.jsonl",
+      "pages_written": 427,
+      "empty_text_page_count": 5,
+      "low_text_page_count": 8,
+      "image_without_text_page_count": 6,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  },
+  {
+    "book_id": "G090_BOOK_018",
+    "group_id": "G090",
+    "subject": "Computer Architecture",
+    "title": "Introduction to Computing Systems: From Bits and Gates to C and Beyond",
+    "author": [
+      "Yale N. Patt",
+      "Sanjay J. Patel"
+    ],
+    "edition": "Second edition, International Edition",
+    "publisher": "McGraw-Hill",
+    "year": 2005,
+    "year_basis": "The copyright page explicitly identifies International Edition 2005.",
+    "copyright_year": 2004,
+    "isbn": "0071245014",
+    "alternate_isbns": [],
+    "file_path": "books/Yale Patt, Sanjay Patel-Introduction to Computing Systems_ From bits and gates to C and beyond-McGraw-Hill (2005).pdf",
+    "source_type": "PDF text",
+    "source_url": null,
+    "permission_status": "unverified",
+    "permission_basis": null,
+    "approval_status": "pending",
+    "processing_status": "processed",
+    "pdf_page_count": 629,
+    "sha256": "3b0e291733e92b49f234fff08bc2671e96632725ce7616f6c03f766e19082413",
+    "text_extraction_status": "sample_checked",
+    "text_check_pdf_pages": [
+      10,
+      158,
+      315,
+      472,
+      620
+    ],
+    "metadata_pdf_pages": [
+      2,
+      3
+    ],
+    "notes": [
+      "The underlying work lists copyright years 2004 and 2001.",
+      "The International Edition credits McGraw-Hill Education (Asia) for manufacture and export.",
+      "The text layer has substantial spacing artifacts; review cleaning quality during ingestion."
+    ],
+    "ingestion": {
+      "extracted_file": "data/extracted/G090_BOOK_018.pages.jsonl",
+      "pages_written": 629,
+      "empty_text_page_count": 0,
+      "low_text_page_count": 1,
+      "image_without_text_page_count": 1,
+      "quality_review_status": "pending",
+      "error": null
+    }
+  }
+]

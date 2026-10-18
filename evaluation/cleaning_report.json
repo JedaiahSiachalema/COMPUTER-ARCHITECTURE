@@ -1,0 +1,2257 @@
+{
+  "books": [
+    {
+      "book_id": "G090_BOOK_001",
+      "pages": 287,
+      "usable_pages": 277,
+      "unusable_pdf_pages": [
+        1,
+        7,
+        11,
+        15,
+        65,
+        141,
+        171,
+        219,
+        249,
+        281
+      ],
+      "needs_respacing_pages": [
+        145,
+        201
+      ],
+      "removed": {
+        "running_headers": 432,
+        "page_numbers": 15
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "- live, informative, non-cost and genuine !",
+          "pages": 286
+        },
+        {
+          "pattern": "# multiprocessors interconnection networks",
+          "pages": 15
+        },
+        {
+          "pattern": "# scheduling and task allocation",
+          "pages": 15
+        },
+        {
+          "pattern": "# abstract models",
+          "pages": 14
+        },
+        {
+          "pattern": "# message passing interface (mpi)",
+          "pages": 14
+        },
+        {
+          "pattern": "# performance analysis of multiprocessor architecture",
+          "pages": 13
+        },
+        {
+          "pattern": "# shared memory architecture",
+          "pages": 13
+        },
+        {
+          "pattern": "#",
+          "pages": 12
+        },
+        {
+          "pattern": "# network computing",
+          "pages": 12
+        },
+        {
+          "pattern": "# message passing architecture",
+          "pages": 11
+        },
+        {
+          "pattern": "# parallel programming in the parallel virtual machine",
+          "pages": 11
+        },
+        {
+          "pattern": "&chapter #",
+          "pages": 10
+        },
+        {
+          "pattern": "# introduction to advanced computer architecture and parallel processing",
+          "pages": 9
+        },
+        {
+          "pattern": "references #",
+          "pages": 9
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_002",
+      "pages": 801,
+      "usable_pages": 787,
+      "unusable_pdf_pages": [
+        1,
+        3,
+        7,
+        19,
+        24,
+        25,
+        267,
+        367,
+        461,
+        541,
+        715,
+        772,
+        773,
+        795
+      ],
+      "needs_respacing_pages": [
+        457
+      ],
+      "removed": {
+        "running_headers": 579,
+        "page_numbers": 29
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "# parallel computer architectures chap. #",
+          "pages": 53
+        },
+        {
+          "pattern": "# the microarchitecture level chap. #",
+          "pages": 49
+        },
+        {
+          "pattern": "# the digital logic level chap. #",
+          "pages": 47
+        },
+        {
+          "pattern": "# computer systems organization chap. #",
+          "pages": 46
+        },
+        {
+          "pattern": "# the instruction set architecture level chap. #",
+          "pages": 46
+        },
+        {
+          "pattern": "# the operating system machine level chap. #",
+          "pages": 39
+        },
+        {
+          "pattern": "# assembly language programming app. c",
+          "pages": 28
+        },
+        {
+          "pattern": "# introduction chap. #",
+          "pages": 27
+        },
+        {
+          "pattern": "# the assembly language level chap. #",
+          "pages": 18
+        },
+        {
+          "pattern": "sec. #.# message-passing multicomputers #",
+          "pages": 18
+        },
+        {
+          "pattern": "sec. #.# input/output #",
+          "pages": 17
+        },
+        {
+          "pattern": "#",
+          "pages": 16
+        },
+        {
+          "pattern": "sec. #.# example operating systems #",
+          "pages": 15
+        },
+        {
+          "pattern": "sec. #.# shared-memory multiprocessors #",
+          "pages": 15
+        },
+        {
+          "pattern": "chap. # problems #",
+          "pages": 13
+        },
+        {
+          "pattern": "sec. #.# virtual memory #",
+          "pages": 12
+        },
+        {
+          "pattern": "this page intentionally left blank",
+          "pages": 11
+        },
+        {
+          "pattern": "index #",
+          "pages": 11
+        },
+        {
+          "pattern": "sec. #.# secondary memory #",
+          "pages": 11
+        },
+        {
+          "pattern": "sec. #.# design of the microarchitecture level #",
+          "pages": 11
+        },
+        {
+          "pattern": "sec. #.# improving performance #",
+          "pages": 10
+        },
+        {
+          "pattern": "sec. #.# on-chip paralellism #",
+          "pages": 10
+        },
+        {
+          "pattern": "sec. c.# examples #",
+          "pages": 10
+        },
+        {
+          "pattern": "# index",
+          "pages": 10
+        },
+        {
+          "pattern": "sec. #.# processors #",
+          "pages": 9
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_003",
+      "pages": 481,
+      "usable_pages": 467,
+      "unusable_pdf_pages": [
+        1,
+        31,
+        41,
+        51,
+        75,
+        93,
+        109,
+        179,
+        223,
+        325,
+        345,
+        365,
+        457,
+        471
+      ],
+      "needs_respacing_pages": [
+        158,
+        165
+      ],
+      "removed": {
+        "page_numbers": 34,
+        "running_headers": 316
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "#",
+          "pages": 30
+        },
+        {
+          "pattern": "# chapter seventeen",
+          "pages": 14
+        },
+        {
+          "pattern": "# chapter eight",
+          "pages": 13
+        },
+        {
+          "pattern": "feedback and flip-flops #",
+          "pages": 13
+        },
+        {
+          "pattern": "# chapter eighteen",
+          "pages": 13
+        },
+        {
+          "pattern": "this page intentionally left blank",
+          "pages": 12
+        },
+        {
+          "pattern": "relays and gates #",
+          "pages": 12
+        },
+        {
+          "pattern": "let’s build a clock! #",
+          "pages": 12
+        },
+        {
+          "pattern": "# chapter twenty",
+          "pages": 12
+        },
+        {
+          "pattern": "automating arithmetic #",
+          "pages": 12
+        },
+        {
+          "pattern": "# chapter twenty-three",
+          "pages": 12
+        },
+        {
+          "pattern": "# chapter twenty-four",
+          "pages": 12
+        },
+        {
+          "pattern": "# chapter eleven",
+          "pages": 11
+        },
+        {
+          "pattern": "# chapter nineteen",
+          "pages": 11
+        },
+        {
+          "pattern": "cpu control signals #",
+          "pages": 11
+        },
+        {
+          "pattern": "loops, jumps, and calls #",
+          "pages": 11
+        },
+        {
+          "pattern": "bit by bit by bit #",
+          "pages": 10
+        },
+        {
+          "pattern": "an assemblage of memory #",
+          "pages": 10
+        },
+        {
+          "pattern": "# chapter twenty-seven",
+          "pages": 10
+        },
+        {
+          "pattern": "coding #",
+          "pages": 10
+        },
+        {
+          "pattern": "# # #",
+          "pages": 9
+        },
+        {
+          "pattern": "# chapter ten",
+          "pages": 9
+        },
+        {
+          "pattern": "# chapter thirteen",
+          "pages": 9
+        },
+        {
+          "pattern": "from ascii to unicode #",
+          "pages": 9
+        },
+        {
+          "pattern": "# chapter twenty-one",
+          "pages": 9
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_004",
+      "pages": 730,
+      "usable_pages": 670,
+      "unusable_pdf_pages": [
+        1,
+        3,
+        4,
+        36,
+        43,
+        51,
+        65,
+        74,
+        94,
+        100,
+        102,
+        107,
+        110,
+        117,
+        120,
+        138,
+        139,
+        141,
+        147,
+        165,
+        171,
+        216,
+        218,
+        230,
+        231,
+        264,
+        267,
+        268,
+        284,
+        292,
+        313,
+        316,
+        333,
+        385,
+        388,
+        401,
+        460,
+        486,
+        534,
+        608,
+        631,
+        636,
+        668,
+        690,
+        693,
+        694,
+        695,
+        696,
+        697,
+        698,
+        701,
+        702,
+        704,
+        705,
+        708,
+        710,
+        713,
+        716,
+        717,
+        724
+      ],
+      "needs_respacing_pages": [
+        38,
+        50,
+        81,
+        82,
+        655,
+        687
+      ],
+      "removed": {
+        "page_numbers": 37,
+        "running_headers": 731
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "# chapter #",
+          "pages": 302
+        },
+        {
+          "pattern": "input/output #",
+          "pages": 42
+        },
+        {
+          "pattern": "synchronous sequential circuits #",
+          "pages": 34
+        },
+        {
+          "pattern": "processor and system structures #",
+          "pages": 32
+        },
+        {
+          "pattern": "combinational logic #",
+          "pages": 30
+        },
+        {
+          "pattern": "#",
+          "pages": 27
+        },
+        {
+          "pattern": "a simple computer: hardware design #",
+          "pages": 27
+        },
+        {
+          "pattern": "advanced architectures #",
+          "pages": 26
+        },
+        {
+          "pattern": "memory system enhancement #",
+          "pages": 24
+        },
+        {
+          "pattern": "control unit enhancement #",
+          "pages": 23
+        },
+        {
+          "pattern": "arithmetic/logic unit enhancement #",
+          "pages": 23
+        },
+        {
+          "pattern": "#.#",
+          "pages": 21
+        },
+        {
+          "pattern": "memory and storage #",
+          "pages": 18
+        },
+        {
+          "pattern": "figure #.# (continued)",
+          "pages": 16
+        },
+        {
+          "pattern": "a simple computer: organization and programming #",
+          "pages": 16
+        },
+        {
+          "pattern": "# appendix a",
+          "pages": 15
+        },
+        {
+          "pattern": "number systems and codes #",
+          "pages": 15
+        },
+        {
+          "pattern": "# appendix c",
+          "pages": 15
+        },
+        {
+          "pattern": "figure",
+          "pages": 14
+        },
+        {
+          "pattern": "details of representative integrated circuits #",
+          "pages": 14
+        },
+        {
+          "pattern": "# appendix b",
+          "pages": 10
+        },
+        {
+          "pattern": "minimization of boolean functions #",
+          "pages": 10
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_005",
+      "pages": 735,
+      "usable_pages": 718,
+      "unusable_pdf_pages": [
+        1,
+        2,
+        3,
+        4,
+        5,
+        8,
+        9,
+        11,
+        50,
+        216,
+        358,
+        408,
+        466,
+        488,
+        594,
+        634,
+        728
+      ],
+      "needs_respacing_pages": [
+        365,
+        378,
+        500,
+        524,
+        666
+      ],
+      "removed": {
+        "running_headers": 457,
+        "page_numbers": 43
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "# c h a p t e r # • instruction set architecture",
+          "pages": 34
+        },
+        {
+          "pattern": "# c h a p t e r # • the memory system",
+          "pages": 33
+        },
+        {
+          "pattern": "# a p p e n d i x a • logic circuits",
+          "pages": 32
+        },
+        {
+          "pattern": "# a p p e n d i x d • the arm processor",
+          "pages": 25
+        },
+        {
+          "pattern": "# c h a p t e r # • arithmetic",
+          "pages": 24
+        },
+        {
+          "pattern": "#",
+          "pages": 23
+        },
+        {
+          "pattern": "problems #",
+          "pages": 22
+        },
+        {
+          "pattern": "# a p p e n d i x e • the intel ia-# architecture",
+          "pages": 21
+        },
+        {
+          "pattern": "# c h a p t e r # • basic processing unit",
+          "pages": 20
+        },
+        {
+          "pattern": "# c h a p t e r # • input/output organization",
+          "pages": 20
+        },
+        {
+          "pattern": "# a p p e n d i x b • the altera nios ii processor",
+          "pages": 20
+        },
+        {
+          "pattern": "# a p p e n d i x c • the coldfire processor",
+          "pages": 19
+        },
+        {
+          "pattern": "# c h a p t e r # • embedded systems",
+          "pages": 18
+        },
+        {
+          "pattern": "# c h a p t e r # • basic input/output",
+          "pages": 17
+        },
+        {
+          "pattern": "# c h a p t e r # • pipelining",
+          "pages": 17
+        },
+        {
+          "pattern": "this page intentionally left blank",
+          "pages": 14
+        },
+        {
+          "pattern": "#.# solved problems #",
+          "pages": 14
+        },
+        {
+          "pattern": "c h a p t e r",
+          "pages": 12
+        },
+        {
+          "pattern": "# c h a p t e r # • basic structure of computers",
+          "pages": 12
+        },
+        {
+          "pattern": "# c h a p t e r # • software",
+          "pages": 11
+        },
+        {
+          "pattern": "# c h a p t e r # • system-on-a-chip—a case study",
+          "pages": 10
+        },
+        {
+          "pattern": "# c h a p t e r # • parallel processing and performance",
+          "pages": 10
+        },
+        {
+          "pattern": "c.# instructions #",
+          "pages": 10
+        },
+        {
+          "pattern": "time",
+          "pages": 9
+        },
+        {
+          "pattern": "problems",
+          "pages": 8
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_006",
+      "pages": 1122,
+      "usable_pages": 1111,
+      "unusable_pdf_pages": [
+        2,
+        3,
+        67,
+        199,
+        705,
+        757,
+        837,
+        923,
+        925,
+        1007,
+        1083
+      ],
+      "needs_respacing_pages": [
+        128,
+        284,
+        405,
+        479,
+        540,
+        682,
+        693,
+        890,
+        1070,
+        1077
+      ],
+      "removed": {
+        "running_headers": 1005,
+        "page_numbers": 41
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "# chapter # machine-level representation of programs",
+          "pages": 94
+        },
+        {
+          "pattern": "# chapter # processor architecture",
+          "pages": 72
+        },
+        {
+          "pattern": "# chapter # representing and manipulating information",
+          "pages": 65
+        },
+        {
+          "pattern": "solutions to practice problems #",
+          "pages": 63
+        },
+        {
+          "pattern": "# chapter # the memory hierarchy",
+          "pages": 44
+        },
+        {
+          "pattern": "#",
+          "pages": 42
+        },
+        {
+          "pattern": "# chapter # optimizing program performance",
+          "pages": 42
+        },
+        {
+          "pattern": "# chapter # virtual memory",
+          "pages": 41
+        },
+        {
+          "pattern": "# chapter # exceptional control flow",
+          "pages": 39
+        },
+        {
+          "pattern": "homework problems #",
+          "pages": 37
+        },
+        {
+          "pattern": "# chapter # concurrent programming",
+          "pages": 35
+        },
+        {
+          "pattern": "practice problem #.# (solution page #)",
+          "pages": 28
+        },
+        {
+          "pattern": "solution to problem #.# (page #)",
+          "pages": 26
+        },
+        {
+          "pattern": "# chapter # network programming",
+          "pages": 26
+        },
+        {
+          "pattern": "section #.# pipelined y#-# implementations #",
+          "pages": 25
+        },
+        {
+          "pattern": "# chapter # linking",
+          "pages": 25
+        },
+        {
+          "pattern": "# }",
+          "pages": 20
+        },
+        {
+          "pattern": "section #.# control #",
+          "pages": 19
+        },
+        {
+          "pattern": "index #",
+          "pages": 16
+        },
+        {
+          "pattern": "# index",
+          "pages": 16
+        },
+        {
+          "pattern": "# chapter # a tour of computer systems",
+          "pages": 14
+        },
+        {
+          "pattern": "section #.# sequential y#-# implementations #",
+          "pages": 14
+        },
+        {
+          "pattern": "# chapter # system-level i/o",
+          "pages": 14
+        },
+        {
+          "pattern": "section #.# integer representations #",
+          "pages": 13
+        },
+        {
+          "pattern": "section #.# dynamic memory allocation #",
+          "pages": 13
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_007",
+      "pages": 1354,
+      "usable_pages": 1350,
+      "unusable_pdf_pages": [
+        1,
+        95,
+        171,
+        575
+      ],
+      "needs_respacing_pages": [
+        325,
+        1001,
+        1003,
+        1018,
+        1113,
+        1123
+      ],
+      "removed": {
+        "page_numbers": 38,
+        "running_headers": 800
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "f-# ■ appendix f interconnection networks",
+          "pages": 58
+        },
+        {
+          "pattern": "# ■ chapter three instruction-level parallelism and its exploitation",
+          "pages": 56
+        },
+        {
+          "pattern": "k-# ■ appendix k survey of instruction set architectures",
+          "pages": 45
+        },
+        {
+          "pattern": "c-# ■ appendix c pipelining: basic and intermediate concepts",
+          "pages": 44
+        },
+        {
+          "pattern": "# ■ chapter five thread-level parallelism",
+          "pages": 43
+        },
+        {
+          "pattern": "i-# ■ index",
+          "pages": 42
+        },
+        {
+          "pattern": "index ■ i-#",
+          "pages": 41
+        },
+        {
+          "pattern": "# ■ chapter two memory hierarchy design",
+          "pages": 37
+        },
+        {
+          "pattern": "j-# ■ appendix j computer arithmetic",
+          "pages": 36
+        },
+        {
+          "pattern": "# ■ chapter one fundamentals of quantitative design and analysis",
+          "pages": 34
+        },
+        {
+          "pattern": "b-# ■ appendix b review of memory hierarchy",
+          "pages": 33
+        },
+        {
+          "pattern": "d-# ■ appendix d storage systems",
+          "pages": 33
+        },
+        {
+          "pattern": "#",
+          "pages": 32
+        },
+        {
+          "pattern": "a-# ■ appendix a instruction set principles",
+          "pages": 27
+        },
+        {
+          "pattern": "i-# ■ appendix i large-scale multiprocessors and scientific applications",
+          "pages": 23
+        },
+        {
+          "pattern": "h-# ■ appendix h hardware and software for vliw and epic",
+          "pages": 22
+        },
+        {
+          "pattern": "g-# ■ appendix g vector processors in more depth",
+          "pages": 17
+        },
+        {
+          "pattern": "#%",
+          "pages": 16
+        },
+        {
+          "pattern": "#.#",
+          "pages": 16
+        },
+        {
+          "pattern": "r-# ■ references",
+          "pages": 16
+        },
+        {
+          "pattern": "references ■ r-#",
+          "pages": 15
+        },
+        {
+          "pattern": "#.# graphics processing units ■ #",
+          "pages": 13
+        },
+        {
+          "pattern": "e-# ■ appendix e embedded systems",
+          "pages": 13
+        },
+        {
+          "pattern": "#.# fallacies and pitfalls ■ #",
+          "pages": 11
+        },
+        {
+          "pattern": "#.# introduction ■ #",
+          "pages": 10
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_008",
+      "pages": 1074,
+      "usable_pages": 1062,
+      "unusable_pdf_pages": [
+        1,
+        3,
+        15,
+        26,
+        259,
+        505,
+        960,
+        993,
+        1042,
+        1072,
+        1073,
+        1074
+      ],
+      "needs_respacing_pages": [
+        13,
+        181,
+        812,
+        813,
+        908
+      ],
+      "removed": {
+        "running_headers": 629,
+        "page_numbers": 20
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "# chapter # the processor",
+          "pages": 64
+        },
+        {
+          "pattern": "# chapter # large and fast: exploiting memory hierarchy",
+          "pages": 63
+        },
+        {
+          "pattern": "# chapter # instructions: language of the computer",
+          "pages": 62
+        },
+        {
+          "pattern": "a-# appendix a the basics of logic design",
+          "pages": 42
+        },
+        {
+          "pattern": "b-# appendix b graphics and computing gpus",
+          "pages": 40
+        },
+        {
+          "pattern": "#.# exercises #",
+          "pages": 39
+        },
+        {
+          "pattern": "# chapter # parallel processors from client to cloud",
+          "pages": 37
+        },
+        {
+          "pattern": "#.# historical perspective and further reading #.e#",
+          "pages": 35
+        },
+        {
+          "pattern": "#.e# #.# historical perspective and further reading",
+          "pages": 33
+        },
+        {
+          "pattern": "# chapter # arithmetic for computers",
+          "pages": 32
+        },
+        {
+          "pattern": "# chapter # computer abstractions and technology",
+          "pages": 28
+        },
+        {
+          "pattern": "d-# appendix d a survey of risc architectures",
+          "pages": 22
+        },
+        {
+          "pattern": "#",
+          "pages": 19
+        },
+        {
+          "pattern": "c-# appendix c mapping control to hardware",
+          "pages": 15
+        },
+        {
+          "pattern": "#.# advanced material: compiling c and interpreting java #.e#",
+          "pages": 13
+        },
+        {
+          "pattern": "#.# floating point #",
+          "pages": 13
+        },
+        {
+          "pattern": "#.# virtual memory #",
+          "pages": 12
+        },
+        {
+          "pattern": "#.# pipelined datapath and control #",
+          "pages": 10
+        },
+        {
+          "pattern": "#.# measuring and improving cache performance #",
+          "pages": 10
+        },
+        {
+          "pattern": "#.# fallacies and pitfalls #",
+          "pages": 9
+        },
+        {
+          "pattern": "b.# real stuff: mapping applications to gpus b-#",
+          "pages": 9
+        },
+        {
+          "pattern": "this page intentionally left blank",
+          "pages": 8
+        },
+        {
+          "pattern": "further reading fr-#",
+          "pages": 8
+        },
+        {
+          "pattern": "#.# introduction #",
+          "pages": 8
+        },
+        {
+          "pattern": "#.# the basics of caches #",
+          "pages": 8
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_009",
+      "pages": 1049,
+      "usable_pages": 1039,
+      "unusable_pdf_pages": [
+        1,
+        3,
+        15,
+        26,
+        317,
+        1013,
+        1017,
+        1047,
+        1048,
+        1049
+      ],
+      "needs_respacing_pages": [
+        13,
+        158,
+        199,
+        237,
+        609,
+        788,
+        789,
+        848,
+        884
+      ],
+      "removed": {
+        "running_headers": 610,
+        "page_numbers": 21
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "# chapter # the processor",
+          "pages": 64
+        },
+        {
+          "pattern": "# chapter # large and fast: exploiting memory hierarchy",
+          "pages": 62
+        },
+        {
+          "pattern": "# chapter # instructions: language of the computer",
+          "pages": 55
+        },
+        {
+          "pattern": "#.# exercises #",
+          "pages": 42
+        },
+        {
+          "pattern": "a-# appendix a the basics of logic design",
+          "pages": 41
+        },
+        {
+          "pattern": "b-# appendix b graphics and computing gpus",
+          "pages": 40
+        },
+        {
+          "pattern": "# chapter # parallel processors from client to cloud",
+          "pages": 37
+        },
+        {
+          "pattern": "#.# historical perspective and further reading #.e#",
+          "pages": 35
+        },
+        {
+          "pattern": "#.e# #.# historical perspective and further reading",
+          "pages": 33
+        },
+        {
+          "pattern": "# chapter # arithmetic for computers",
+          "pages": 29
+        },
+        {
+          "pattern": "# chapter # computer abstractions and technology",
+          "pages": 28
+        },
+        {
+          "pattern": "d-# appendix d a survey of risc architectures",
+          "pages": 22
+        },
+        {
+          "pattern": "#",
+          "pages": 19
+        },
+        {
+          "pattern": "c-# appendix c mapping control to hardware",
+          "pages": 15
+        },
+        {
+          "pattern": "#.# advanced material: compiling c and interpreting java #.e#",
+          "pages": 13
+        },
+        {
+          "pattern": "#.# floating point #",
+          "pages": 13
+        },
+        {
+          "pattern": "#.# virtual memory #",
+          "pages": 12
+        },
+        {
+          "pattern": "#.# measuring and improving cache performance #",
+          "pages": 10
+        },
+        {
+          "pattern": "#.# fallacies and pitfalls #",
+          "pages": 9
+        },
+        {
+          "pattern": "#.# pipelined datapath and control #",
+          "pages": 9
+        },
+        {
+          "pattern": "b.# real stuff: mapping applications to gpus b-#",
+          "pages": 9
+        },
+        {
+          "pattern": "further reading fr-#",
+          "pages": 8
+        },
+        {
+          "pattern": "#.# introduction #",
+          "pages": 8
+        },
+        {
+          "pattern": "#.# the basics of caches #",
+          "pages": 8
+        },
+        {
+          "pattern": "#.# advanced material: implementing cache controllers #.e#",
+          "pages": 8
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_010",
+      "pages": 711,
+      "usable_pages": 702,
+      "unusable_pdf_pages": [
+        6,
+        13,
+        64,
+        117,
+        181,
+        247,
+        303,
+        393,
+        494
+      ],
+      "needs_respacing_pages": [
+        91,
+        107,
+        140,
+        261,
+        263,
+        353,
+        365,
+        386,
+        387,
+        471,
+        588,
+        606,
+        607,
+        608,
+        657
+      ],
+      "removed": {
+        "page_numbers": 10,
+        "running_headers": 547
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "# chapter seven microarchitecture",
+          "pages": 50
+        },
+        {
+          "pattern": "# chapter six architecture",
+          "pages": 44
+        },
+        {
+          "pattern": "exercises #",
+          "pages": 40
+        },
+        {
+          "pattern": "# chapter four hardware description languages",
+          "pages": 32
+        },
+        {
+          "pattern": "#.e# chapter nine i/o systems",
+          "pages": 32
+        },
+        {
+          "pattern": "# chapter three sequential logic design",
+          "pages": 31
+        },
+        {
+          "pattern": "# chapter five digital building blocks",
+          "pages": 27
+        },
+        {
+          "pattern": "# chapter two combinational logic design",
+          "pages": 26
+        },
+        {
+          "pattern": "# chapter one from zero to one",
+          "pages": 25
+        },
+        {
+          "pattern": "#.e# appendix c",
+          "pages": 24
+        },
+        {
+          "pattern": "# chapter eight memory systems",
+          "pages": 21
+        },
+        {
+          "pattern": "#.e# appendix a digital system implementation",
+          "pages": 17
+        },
+        {
+          "pattern": "}",
+          "pages": 16
+        },
+        {
+          "pattern": "clk",
+          "pages": 15
+        },
+        {
+          "pattern": "#.# embedded i/o systems #.e#",
+          "pages": 15
+        },
+        {
+          "pattern": "end;",
+          "pages": 13
+        },
+        {
+          "pattern": "#.# programming #",
+          "pages": 13
+        },
+        {
+          "pattern": "#.# finite state machines #",
+          "pages": 11
+        },
+        {
+          "pattern": "#.# other microcontroller peripherals #.e#",
+          "pages": 11
+        },
+        {
+          "pattern": "#.# pipelined processor #",
+          "pages": 9
+        },
+        {
+          "pattern": "exercises",
+          "pages": 8
+        },
+        {
+          "pattern": "#",
+          "pages": 8
+        },
+        {
+          "pattern": "interview questions",
+          "pages": 8
+        },
+        {
+          "pattern": "#.# introduction",
+          "pages": 8
+        },
+        {
+          "pattern": "#.# timing of sequential logic #",
+          "pages": 8
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_011",
+      "pages": 1017,
+      "usable_pages": 996,
+      "unusable_pdf_pages": [
+        1,
+        4,
+        5,
+        31,
+        91,
+        113,
+        151,
+        349,
+        387,
+        633,
+        635,
+        649,
+        683,
+        781,
+        797,
+        819,
+        837,
+        849,
+        863,
+        881,
+        917
+      ],
+      "needs_respacing_pages": [
+        51,
+        191,
+        195,
+        226,
+        416,
+        803,
+        852,
+        860
+      ],
+      "removed": {
+        "running_headers": 931,
+        "page_numbers": 51
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "# memory systems: cache, dram, disk",
+          "pages": 459
+        },
+        {
+          "pattern": "#",
+          "pages": 51
+        },
+        {
+          "pattern": "chapter # management of cache contents #",
+          "pages": 49
+        },
+        {
+          "pattern": "chapter #",
+          "pages": 31
+        },
+        {
+          "pattern": "chapter # memory system design analysis #",
+          "pages": 28
+        },
+        {
+          "pattern": "chapter overview on memory systems and their design #",
+          "pages": 26
+        },
+        {
+          "pattern": "chapter # implementation issues #",
+          "pages": 21
+        },
+        {
+          "pattern": "this page intentionally left blank",
+          "pages": 19
+        },
+        {
+          "pattern": "chapter # management of cache consistency #",
+          "pages": 19
+        },
+        {
+          "pattern": "chapter # evolutionary developments of dram device architecture #",
+          "pages": 19
+        },
+        {
+          "pattern": "chapter # logical organization #",
+          "pages": 18
+        },
+        {
+          "pattern": "chapter # overview of drams #",
+          "pages": 18
+        },
+        {
+          "pattern": "chapter # virtual memory #",
+          "pages": 18
+        },
+        {
+          "pattern": "chapter # the physical layer #",
+          "pages": 16
+        },
+        {
+          "pattern": "references #",
+          "pages": 16
+        },
+        {
+          "pattern": "chapter # dram system signaling and timing #",
+          "pages": 15
+        },
+        {
+          "pattern": "chapter # basic dram memory-access protocol #",
+          "pages": 15
+        },
+        {
+          "pattern": "# index",
+          "pages": 14
+        },
+        {
+          "pattern": "chapter # the data layer #",
+          "pages": 13
+        },
+        {
+          "pattern": "index #",
+          "pages": 13
+        },
+        {
+          "pattern": "chapter # dram device organization: basic circuits and architecture #",
+          "pages": 11
+        },
+        {
+          "pattern": "chapter # an overview of cache principles #",
+          "pages": 10
+        },
+        {
+          "pattern": "chapter # dram memory controller #",
+          "pages": 10
+        },
+        {
+          "pattern": "chapter # the fully buffered dimm memory system #",
+          "pages": 10
+        },
+        {
+          "pattern": "chapter # performance issues and design trade-offs #",
+          "pages": 10
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_012",
+      "pages": 658,
+      "usable_pages": 651,
+      "unusable_pdf_pages": [
+        1,
+        231,
+        315,
+        343,
+        383,
+        467,
+        658
+      ],
+      "needs_respacing_pages": [],
+      "removed": {
+        "running_headers": 763,
+        "page_numbers": 23
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "# modern processor design",
+          "pages": 305
+        },
+        {
+          "pattern": "figure #.#",
+          "pages": 107
+        },
+        {
+          "pattern": "survey of superscalar processors #",
+          "pages": 41
+        },
+        {
+          "pattern": "memory and i/o systems #",
+          "pages": 35
+        },
+        {
+          "pattern": "superscalartechniques #",
+          "pages": 33
+        },
+        {
+          "pattern": "executing multiple threads #",
+          "pages": 32
+        },
+        {
+          "pattern": "pipelined processors #",
+          "pages": 32
+        },
+        {
+          "pattern": "advanced instruction flow techniques #",
+          "pages": 32
+        },
+        {
+          "pattern": "table #.#",
+          "pages": 19
+        },
+        {
+          "pattern": "superscalar organization #",
+          "pages": 19
+        },
+        {
+          "pattern": "intel's p# microarchitecture #",
+          "pages": 19
+        },
+        {
+          "pattern": "advanced register data flow techniques #",
+          "pages": 19
+        },
+        {
+          "pattern": "processor design #",
+          "pages": 18
+        },
+        {
+          "pattern": "#",
+          "pages": 13
+        },
+        {
+          "pattern": "the powerpc # #",
+          "pages": 13
+        },
+        {
+          "pattern": "chapter",
+          "pages": 11
+        },
+        {
+          "pattern": "index #",
+          "pages": 10
+        },
+        {
+          "pattern": "# index",
+          "pages": 10
+        },
+        {
+          "pattern": "superscalar techniques #",
+          "pages": 8
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_013",
+      "pages": 877,
+      "usable_pages": 875,
+      "unusable_pdf_pages": [
+        2,
+        15
+      ],
+      "needs_respacing_pages": [],
+      "removed": {
+        "page_numbers": 11,
+        "running_headers": 682
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "introduction",
+          "pages": 58
+        },
+        {
+          "pattern": "directory-based cache coherence",
+          "pages": 50
+        },
+        {
+          "pattern": "latency tolerance",
+          "pages": 49
+        },
+        {
+          "pattern": "shared memory multiprocessors",
+          "pages": 48
+        },
+        {
+          "pattern": "scalable multiprocessors",
+          "pages": 45
+        },
+        {
+          "pattern": "interconnection network design",
+          "pages": 38
+        },
+        {
+          "pattern": "snoop-based multiprocessor design",
+          "pages": 34
+        },
+        {
+          "pattern": "programming for performance",
+          "pages": 32
+        },
+        {
+          "pattern": "workload-driven evaluation",
+          "pages": 32
+        },
+        {
+          "pattern": "hardware-software tradeoffs",
+          "pages": 31
+        },
+        {
+          "pattern": "exercises",
+          "pages": 26
+        },
+        {
+          "pattern": "parallel programs",
+          "pages": 21
+        },
+        {
+          "pattern": "references",
+          "pages": 19
+        },
+        {
+          "pattern": "synchronization",
+          "pages": 16
+        },
+        {
+          "pattern": "#",
+          "pages": 14
+        },
+        {
+          "pattern": "future directions",
+          "pages": 13
+        },
+        {
+          "pattern": "assessing protocol design tradeoffs",
+          "pages": 12
+        },
+        {
+          "pattern": "convergence of parallel architectures",
+          "pages": 11
+        },
+        {
+          "pattern": "memory-based directory protocols: the sgi origin system",
+          "pages": 11
+        },
+        {
+          "pattern": "multithreading in a shared address space",
+          "pages": 11
+        },
+        {
+          "pattern": "# #",
+          "pages": 10
+        },
+        {
+          "pattern": "parallelization of an example program",
+          "pages": 10
+        },
+        {
+          "pattern": "precommunication in a shared address space",
+          "pages": 10
+        },
+        {
+          "pattern": "why parallel architecture",
+          "pages": 9
+        },
+        {
+          "pattern": "the parallel application case studies: an in-depth look",
+          "pages": 9
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_014",
+      "pages": 705,
+      "usable_pages": 702,
+      "unusable_pdf_pages": [
+        255,
+        294,
+        314
+      ],
+      "needs_respacing_pages": [
+        65,
+        66,
+        67,
+        68,
+        69,
+        70,
+        71,
+        74,
+        81,
+        84,
+        88,
+        89,
+        107,
+        134,
+        135,
+        143,
+        150,
+        176,
+        288,
+        321,
+        380,
+        520
+      ],
+      "removed": {
+        "page_numbers": 6,
+        "running_headers": 491
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "this page has been reformatted by knovel to provide easier navigation.",
+          "pages": 47
+        },
+        {
+          "pattern": "index terms links",
+          "pages": 47
+        },
+        {
+          "pattern": "# chapter # gates, circuits, and combinational logic",
+          "pages": 37
+        },
+        {
+          "pattern": "# chapter # assembly language programming",
+          "pages": 32
+        },
+        {
+          "pattern": "# chapter # computer arithmetic",
+          "pages": 29
+        },
+        {
+          "pattern": "# chapter # computer peripherals",
+          "pages": 29
+        },
+        {
+          "pattern": "# chapter # computer memory",
+          "pages": 27
+        },
+        {
+          "pattern": "# chapter # sequential logic",
+          "pages": 22
+        },
+        {
+          "pattern": "# chapter # computer communications",
+          "pages": 21
+        },
+        {
+          "pattern": "# chapter # accelerating performance",
+          "pages": 20
+        },
+        {
+          "pattern": "# chapter # buses and input/output mechanisms",
+          "pages": 18
+        },
+        {
+          "pattern": "# chapter # processor architectures",
+          "pages": 17
+        },
+        {
+          "pattern": "# chapter # structure of the cpu",
+          "pages": 16
+        },
+        {
+          "pattern": "#.# an introduction to boolean algebra #",
+          "pages": 14
+        },
+        {
+          "pattern": "# appendix: the # instruction set",
+          "pages": 14
+        },
+        {
+          "pattern": "appendix: the # instruction set #",
+          "pages": 14
+        },
+        {
+          "pattern": "chapter map",
+          "pages": 13
+        },
+        {
+          "pattern": "# chapter # introduction to computer hardware",
+          "pages": 12
+        },
+        {
+          "pattern": "# chapter # the instruction set architecture",
+          "pages": 12
+        },
+        {
+          "pattern": "#.# the arm—an elegant risc processor #",
+          "pages": 12
+        },
+        {
+          "pattern": "# chapter # the operating system",
+          "pages": 11
+        },
+        {
+          "pattern": "#.# the analog interface #",
+          "pages": 10
+        },
+        {
+          "pattern": "#.# the stack #",
+          "pages": 9
+        },
+        {
+          "pattern": "#.# introduction to digital works #",
+          "pages": 8
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_015",
+      "pages": 881,
+      "usable_pages": 877,
+      "unusable_pdf_pages": [
+        1,
+        13,
+        23,
+        812
+      ],
+      "needs_respacing_pages": [
+        356,
+        496,
+        554,
+        618,
+        672,
+        688,
+        691,
+        695,
+        698,
+        784,
+        799,
+        802,
+        804,
+        809
+      ],
+      "removed": {
+        "page_numbers": 73,
+        "running_headers": 500
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "#",
+          "pages": 65
+        },
+        {
+          "pattern": "#.# / key terms, review questions, and problems #",
+          "pages": 33
+        },
+        {
+          "pattern": "# chapter # / instruction sets: characteristics and functions",
+          "pages": 25
+        },
+        {
+          "pattern": "# chapter # / parallel processing",
+          "pages": 25
+        },
+        {
+          "pattern": "# chapter # / computer evolution and performance",
+          "pages": 23
+        },
+        {
+          "pattern": "chapter",
+          "pages": 22
+        },
+        {
+          "pattern": "# chapter # / operating system support",
+          "pages": 22
+        },
+        {
+          "pattern": "# chapter # / processor structure and function",
+          "pages": 22
+        },
+        {
+          "pattern": "# chapter # / a top-level view of computer function",
+          "pages": 21
+        },
+        {
+          "pattern": "# chapter # / cache memory",
+          "pages": 21
+        },
+        {
+          "pattern": "# chapter # / input/output",
+          "pages": 21
+        },
+        {
+          "pattern": "# chapter # / computer arithmetic",
+          "pages": 20
+        },
+        {
+          "pattern": "# chapter # / reduced instruction set computers",
+          "pages": 20
+        },
+        {
+          "pattern": "# chapter # / microprogrammed control",
+          "pages": 20
+        },
+        {
+          "pattern": "#-# chapter # / digital logic",
+          "pages": 20
+        },
+        {
+          "pattern": "key points",
+          "pages": 19
+        },
+        {
+          "pattern": "# chapter # / instruction-level parallelism & superscalar processors",
+          "pages": 18
+        },
+        {
+          "pattern": "#.# key terms, review questions, and problems",
+          "pages": 15
+        },
+        {
+          "pattern": "# chapter # / external memory",
+          "pages": 15
+        },
+        {
+          "pattern": "# chapter # / instruction sets: addressing modes and formats",
+          "pages": 15
+        },
+        {
+          "pattern": "#-# chapter # / the ia-# architecture",
+          "pages": 14
+        },
+        {
+          "pattern": "# appendix b / assembly language and related topics",
+          "pages": 13
+        },
+        {
+          "pattern": "# chapter # / internal memory",
+          "pages": 12
+        },
+        {
+          "pattern": "# chapter # / multicore computers",
+          "pages": 11
+        },
+        {
+          "pattern": "#.# / elements of cache design #",
+          "pages": 10
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_016",
+      "pages": 699,
+      "usable_pages": 689,
+      "unusable_pdf_pages": [
+        1,
+        63,
+        95,
+        292,
+        425,
+        499,
+        569,
+        570,
+        670,
+        699
+      ],
+      "needs_respacing_pages": [
+        112,
+        133
+      ],
+      "removed": {
+        "page_numbers": 38,
+        "running_headers": 764
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "figure #.#",
+          "pages": 138
+        },
+        {
+          "pattern": "# part three computer architecture and hardware operation",
+          "pages": 83
+        },
+        {
+          "pattern": "# part five the software component",
+          "pages": 80
+        },
+        {
+          "pattern": "# part four networks and data communications",
+          "pages": 52
+        },
+        {
+          "pattern": "# part two data in the computer",
+          "pages": 49
+        },
+        {
+          "pattern": "#",
+          "pages": 35
+        },
+        {
+          "pattern": "# part one an overview of computer systems",
+          "pages": 30
+        },
+        {
+          "pattern": "chapter # the internal operating system #",
+          "pages": 28
+        },
+        {
+          "pattern": "chapter # ethernet and tcp/ip networking #",
+          "pages": 20
+        },
+        {
+          "pattern": "chapter # file management #",
+          "pages": 20
+        },
+        {
+          "pattern": "chapter # representing numerical data #",
+          "pages": 19
+        },
+        {
+          "pattern": "chapter # the cpu and memory #",
+          "pages": 19
+        },
+        {
+          "pattern": "chapter #",
+          "pages": 18
+        },
+        {
+          "pattern": "#.# introduction",
+          "pages": 18
+        },
+        {
+          "pattern": "chapter # computer peripherals #",
+          "pages": 18
+        },
+        {
+          "pattern": "chapter # data formats #",
+          "pages": 17
+        },
+        {
+          "pattern": "chapter # networks and data communications—an overview #",
+          "pages": 17
+        },
+        {
+          "pattern": "chapter # operating systems: an overview #",
+          "pages": 16
+        },
+        {
+          "pattern": "chapter # computers and systems #",
+          "pages": 15
+        },
+        {
+          "pattern": "chapter # cpu and memory: design, enhancement, and implementation #",
+          "pages": 15
+        },
+        {
+          "pattern": "chapter # the user view of operating systems #",
+          "pages": 15
+        },
+        {
+          "pattern": "chapter # an introduction to system concepts and systems architecture #",
+          "pages": 14
+        },
+        {
+          "pattern": "chapter # communication channel technology #",
+          "pages": 14
+        },
+        {
+          "pattern": "chapter # number systems #",
+          "pages": 13
+        },
+        {
+          "pattern": "chapter # input/output #",
+          "pages": 13
+        }
+      ]
+    },
+    {
+      "book_id": "G090_BOOK_017",
+      "pages": 427,
+      "usable_pages": 419,
+      "unusable_pdf_pages": [
+        1,
+        4,
+        228,
+        277,
+        320,
+        411,
+        412,
+        413
+      ],
+      "needs_respacing_pages": [],
+      "removed": {},
+      "running_headers_removed": []
+    },
+    {
+      "book_id": "G090_BOOK_018",
+      "pages": 629,
+      "usable_pages": 628,
+      "unusable_pdf_pages": [
+        1
+      ],
+      "needs_respacing_pages": [
+        10,
+        142,
+        189,
+        358,
+        374,
+        417,
+        422,
+        437,
+        438,
+        439,
+        440,
+        441,
+        442,
+        444,
+        446,
+        447,
+        448,
+        451,
+        453,
+        454,
+        455,
+        457,
+        460,
+        461,
+        464,
+        466,
+        468,
+        469,
+        470,
+        471,
+        473,
+        476,
+        477,
+        478,
+        479,
+        480,
+        481,
+        484,
+        485,
+        487,
+        488,
+        489,
+        491,
+        492,
+        493,
+        494,
+        537,
+        588,
+        589,
+        627
+      ],
+      "removed": {
+        "running_headers": 382,
+        "page_numbers": 32
+      },
+      "running_headers_removed": [
+        {
+          "pattern": "exercises #",
+          "pages": 58
+        },
+        {
+          "pattern": "#",
+          "pages": 31
+        },
+        {
+          "pattern": "# chapter # digital logic structures",
+          "pages": 20
+        },
+        {
+          "pattern": "# chapter # the lc-#",
+          "pages": 19
+        },
+        {
+          "pattern": "}",
+          "pages": 18
+        },
+        {
+          "pattern": "# chapter # and, finally ... the stack t",
+          "pages": 17
+        },
+        {
+          "pattern": "# chapter # variables and operators",
+          "pages": 17
+        },
+        {
+          "pattern": "c h a p t e r",
+          "pages": 16
+        },
+        {
+          "pattern": "# chapter # control structures",
+          "pages": 16
+        },
+        {
+          "pattern": "# chapter # bits, data types, and operations",
+          "pages": 14
+        },
+        {
+          "pattern": "# #include <stdio.h>",
+          "pages": 14
+        },
+        {
+          "pattern": "# chapter # pointers and arrays",
+          "pages": 14
+        },
+        {
+          "pattern": "# chapter # trap routines and subroutines",
+          "pages": 13
+        },
+        {
+          "pattern": "# }",
+          "pages": 13
+        },
+        {
+          "pattern": "# chapter # programming",
+          "pages": 11
+        },
+        {
+          "pattern": ".end",
+          "pages": 11
+        },
+        {
+          "pattern": "# chapter # functions",
+          "pages": 11
+        },
+        {
+          "pattern": "# chapter # recursion",
+          "pages": 11
+        },
+        {
+          "pattern": "# appendix a the lc-# isa",
+          "pages": 11
+        },
+        {
+          "pattern": "# chapter # assembly language",
+          "pages": 10
+        },
+        {
+          "pattern": "# chapter # testing and debugging",
+          "pages": 10
+        },
+        {
+          "pattern": "# appendix d the c programming language",
+          "pages": 9
+        },
+        {
+          "pattern": "# chapter # welcome aboard",
+          "pages": 8
+        },
+        {
+          "pattern": "(a) (b)",
+          "pages": 8
+        },
+        {
+          "pattern": "# chapter # the von neumann model",
+          "pages": 8
+        }
+      ]
+    }
+  ]
+}

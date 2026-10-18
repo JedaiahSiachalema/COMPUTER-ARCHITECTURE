@@ -1,0 +1,15 @@
+# Local Windows/Python 3.12 pins for the existing Documents environment.
+# Shared coordinator model IDs/revisions are selected separately.
+# The installed CUDA 11.8 build retains support for the Quadro M2000M (sm_50).
+--extra-index-url https://download.pytorch.org/whl/cu118
+torch==2.7.1+cu118
+numpy==2.5.3
+transformers==5.17.0
+PyMuPDF==1.26.5
+sentence-transformers==6.1.0
+faiss-cpu==1.15.1
+peft==0.21.2
+accelerate==1.15.0
+streamlit==1.66.0
+pytest==8.4.2
+PyYAML==6.0.3

@@ -1,0 +1,43 @@
+runtime:
+  python_executable: "C:/Users/Billy/Documents/.venv/Scripts/python.exe"
+  python_version: "3.12.10"
+
+project:
+  group_id: "G090"
+  subject: "Computer Architecture"
+
+sources:
+  book_manifest: "data/book_manifest.json"
+  pdf_directory: "."
+  excluded_directories:
+    - "ignored"
+    - "output"
+    - "tmp"
+  ocr_enabled: false
+
+embedding:
+  model_id: null
+  revision: null
+
+generation:
+  model_id: null
+  revision: null
+
+ingestion:
+  minimum_text_characters: 40
+
+chunking:
+  size_tokens: null
+  overlap_tokens: null
+
+retrieval:
+  top_k: 5
+  index_type: null
+  index_directory: "artifacts/index"
+
+paths:
+  extracted_directory: "data/extracted"
+  ingestion_report: "evaluation/ingestion_report.json"
+  passages: "data/passages.jsonl"
+  evaluation_questions: "data/evaluation_questions.json"
+  evaluation_directory: "evaluation"
