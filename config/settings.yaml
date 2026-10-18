@@ -1,6 +1,7 @@
 runtime:
   python_executable: "C:/Users/Billy/Documents/.venv/Scripts/python.exe"
   python_version: "3.12.10"
+  device: "auto"  # Prefer a working CUDA GPU; otherwise use CPU.
 
 project:
   group_id: "G090"
@@ -18,7 +19,6 @@ sources:
 embedding:
   model_name: "BAAI/bge-small-en-v1.5"
   revision: "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a"
-  device: "cpu"
   batch_size: 8
   normalize: true
   document_prefix: ""
@@ -38,7 +38,7 @@ chunking:
 
 retrieval:
   top_k: 5
-  index_type: null
+  index_type: "IndexFlatIP"
   index_directory: "artifacts/index"
 
 paths:

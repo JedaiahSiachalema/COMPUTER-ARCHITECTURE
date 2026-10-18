@@ -13,9 +13,14 @@ from zoneinfo import ZoneInfo
 import numpy as np
 import yaml
 
+if __package__:
+    from .runtime_device import clear_cuda_cache, device_preference, is_cuda_resource_error, select_device
+else:
+    from runtime_device import clear_cuda_cache, device_preference, is_cuda_resource_error, select_device
+
 ROOT = Path(__file__).resolve().parents[1]
 SETTINGS = ROOT / "config" / "settings.yaml"
-CHUNKS_DIR = ROOT / "data" / "chunks"
+CORPUS_REPORT = ROOT / "evaluation" / "corpus_preparation_report.json"
 INDEX_DIR = ROOT / "artifacts" / "index"
 PASSAGES = ROOT / "data" / "passages.jsonl"
 CHUNK_REPORT = ROOT / "evaluation" / "chunking_report.json"
@@ -40,7 +45,7 @@ def resolve_config(args: argparse.Namespace) -> dict:
                 "announces them. Until then, use --experiment (see the top of this file).")
     config["include_section"] = bool(section.get("include_section", True))
     config["batch_size"] = int(section.get("batch_size", 32))
-    config["device"] = section.get("device")
+    config["device"] = device_preference(settings, "embedding")
     config["normalize"] = True
     return config
 
@@ -48,7 +53,21 @@ def resolve_config(args: argparse.Namespace) -> dict:
 def load_model(config: dict):
     from sentence_transformers import SentenceTransformer
     kwargs = {"revision": config["revision"]} if config.get("revision") else {}
-    return SentenceTransformer(config["model_name"], device=config.get("device"), **kwargs)
+    if config.get("local_files_only"):
+        kwargs["local_files_only"] = True
+    config["requested_device"] = config.get("device") or "auto"
+    config["device"] = select_device(config["requested_device"])
+    try:
+        return SentenceTransformer(config["model_name"], device=config["device"], **kwargs)
+    except RuntimeError as error:
+        if not config["device"].startswith("cuda") or not is_cuda_resource_error(error):
+            raise
+        reason = str(error)
+    # Leave the exception handler first, releasing failed GPU tensors/tracebacks.
+    print(f"GPU model loading failed ({reason}); retrying on CPU.", flush=True)
+    config["device"] = "cpu"
+    clear_cuda_cache()
+    return SentenceTransformer(config["model_name"], device="cpu", **kwargs)
 
 
 def passage_text(chunk: dict, config: dict) -> str:
@@ -59,9 +78,28 @@ def passage_text(chunk: dict, config: dict) -> str:
     return config["document_prefix"] + text
 
 
+def encode_texts(model, texts: list[str], config: dict, *, show_progress: bool = False) -> np.ndarray:
+    """Use the selected model device, with one CPU retry for CUDA resource failures."""
+    kwargs = {
+        "batch_size": config["batch_size"], "normalize_embeddings": True,
+        "convert_to_numpy": True, "show_progress_bar": show_progress,
+    }
+    try:
+        return model.encode(texts, device=config["device"], **kwargs).astype("float32")
+    except RuntimeError as error:
+        if not config["device"].startswith("cuda") or not is_cuda_resource_error(error):
+            raise
+        reason = str(error)
+    print(f"GPU encoding failed ({reason}); retrying this book/query batch on CPU.", flush=True)
+    model.to("cpu")
+    config["device"] = "cpu"
+    clear_cuda_cache()
+    return model.encode(texts, device="cpu", **kwargs).astype("float32")
+
+
 def embed_queries(model, questions: list[str], config: dict) -> np.ndarray:
     prefixed = [config["query_prefix"] + q for q in questions]
-    return model.encode(prefixed, normalize_embeddings=True, convert_to_numpy=True).astype("float32")
+    return encode_texts(model, prefixed, config)
 
 
 def atomic_bytes(path: Path, writer) -> None:
@@ -70,6 +108,11 @@ def atomic_bytes(path: Path, writer) -> None:
     with temporary.open("wb") as stream:
         writer(stream)
     os.replace(temporary, path)
+
+
+def file_sha256(path: Path) -> str:
+    with path.open("rb") as stream:
+        return hashlib.file_digest(stream, "sha256").hexdigest()
 
 
 def embed_book(model, config: dict, source: Path, vector_dir: Path, force: bool) -> tuple[list[dict], np.ndarray, bool]:
@@ -86,8 +129,7 @@ def embed_book(model, config: dict, source: Path, vector_dir: Path, force: bool)
             if vectors.shape[0] == len(chunks):
                 return chunks, vectors, True
     texts = [passage_text(chunk, config) for chunk in chunks]
-    vectors = model.encode(texts, batch_size=config["batch_size"], normalize_embeddings=True,
-                           show_progress_bar=True, convert_to_numpy=True).astype("float32")
+    vectors = encode_texts(model, texts, config, show_progress=True)
     atomic_bytes(vector_path, lambda stream: np.save(stream, vectors))
     atomic_bytes(key_path, lambda stream: stream.write(json.dumps(key, indent=2).encode("utf-8")))
     return chunks, vectors, False
@@ -135,9 +177,14 @@ def main() -> int:
     config = resolve_config(args)
     out_dir = INDEX_DIR / "experiments" / args.experiment if args.experiment else INDEX_DIR
     passages_path = out_dir / "passages.jsonl" if args.experiment else PASSAGES
-    files = sorted(CHUNKS_DIR.glob("*.chunks.jsonl"))
-    if not files:
-        raise SystemExit(f"No chunk files in {CHUNKS_DIR}. Run chunk.py first.")
+    if __package__:
+        from .prepare_corpus import load_prepared_sources
+    else:
+        from prepare_corpus import load_prepared_sources
+    try:
+        files, corpus_report = load_prepared_sources(ROOT, SETTINGS)
+    except (ValueError, OSError, KeyError) as error:
+        raise SystemExit(f"Embedding inputs are not ready: {error}") from error
     if not config["revision"]:
         print("Warning: no revision given. This index is not reproducible and is labelled experimental.")
 
@@ -148,6 +195,7 @@ def main() -> int:
     all_chunks: list[dict] = []
     all_vectors: list[np.ndarray] = []
     books: dict[str, int] = {}
+    book_devices: dict[str, str] = {}
     for source in files:
         book_id = source.name.removesuffix(".chunks.jsonl")
         chunks, vectors, cached = embed_book(model, config, source, out_dir / "vectors",
@@ -156,6 +204,7 @@ def main() -> int:
         all_chunks.extend(chunks)
         all_vectors.append(vectors)
         books[book_id] = len(chunks)
+        book_devices[book_id] = "cached (original device not recorded)" if cached else config["device"]
 
     matrix = np.vstack(all_vectors).astype("float32")
     ids = [c["chunk_id"] for c in all_chunks]
@@ -189,13 +238,26 @@ def main() -> int:
     index_config = {
         "built_at": datetime.now(ZoneInfo("Africa/Lusaka")).isoformat(),
         "experiment": args.experiment,
+        "corpus_preparation": {
+            "report": CORPUS_REPORT.relative_to(ROOT).as_posix(),
+            "report_sha256": hashlib.sha256(CORPUS_REPORT.read_bytes()).hexdigest(),
+            "unique_passages": corpus_report["unique_passages"],
+            "source_chunks": corpus_report["retained_source_chunks"],
+            "books_represented": corpus_report["books_represented"],
+        },
         "embedding": {**{k: config[k] for k in ("model_name", "revision", "document_prefix", "query_prefix",
                                                 "include_section", "normalize")},
                       "dimension": int(matrix.shape[1]),
+                      "requested_device": config["requested_device"],
+                      "final_device": config["device"],
+                      "book_devices": book_devices,
                       "truncation": truncation_estimate(model, config, all_chunks)},
-        "index": {"type": "IndexFlatIP", "metric": "inner product on normalized vectors (cosine)",
+        "index": {"type": "IndexFlatIP", "device": "cpu",
+                  "metric": "inner product on normalized vectors (cosine)",
                   "passages": len(all_chunks), "file": "index.faiss",
-                  "passages_file": passages_path.relative_to(ROOT).as_posix()},
+                  "passages_file": passages_path.relative_to(ROOT).as_posix(),
+                  "sha256": file_sha256(out_dir / "index.faiss"),
+                  "passages_sha256": file_sha256(passages_path)},
         "chunking": chunking,
         "books": books,
         "libraries": library_versions(),

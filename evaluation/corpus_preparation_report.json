@@ -1,0 +1,301 @@
+{
+  "schema_version": 1,
+  "created_at": "2026-10-18T21:05:22.875379+02:00",
+  "embedding_input": {
+    "model_name": "BAAI/bge-small-en-v1.5",
+    "revision": "5c38ec7c405ec4b44b94cc5a9bb96e735b38267a",
+    "document_prefix": "",
+    "include_section": false
+  },
+  "manifest_path": "data/book_manifest.json",
+  "manifest_sha256": "f9bc893d49c5dd8411453132db383b17763aae08c021de3d42b5b30da6f988c8",
+  "policy_path": "config/corpus_filters.json",
+  "policy_sha256": "7411c449f4c95805631823535f80ee5cdada91e62e97e468ec3f47976f94a0c6",
+  "chunk_report_path": "evaluation/chunking_report.json",
+  "chunk_report_sha256": "e33a6f371dcc87b5b20d0d1e775cfc03aa42e4ce3d9408baf1b9498124bfd45d",
+  "inputs": [
+    {
+      "book_id": "G090_BOOK_001",
+      "path": "data/chunks/G090_BOOK_001.chunks.jsonl",
+      "sha256": "50b9f4288d4bbf61b045706a00ac14bed86915e8734c002d2d8926115d34da61",
+      "cleaned_path": "data/cleaned/G090_BOOK_001.pages.jsonl",
+      "cleaned_sha256": "fa53364126a7835f87523b38b4b120ae7fe1a42991f4cb2dcf57a58ffe03edf4"
+    },
+    {
+      "book_id": "G090_BOOK_002",
+      "path": "data/chunks/G090_BOOK_002.chunks.jsonl",
+      "sha256": "2f1c2f53d3afd81cef8331779c4ca3170639f598d01098c24b8702d48eccf3a0",
+      "cleaned_path": "data/cleaned/G090_BOOK_002.pages.jsonl",
+      "cleaned_sha256": "b5f628ad8bb94641581e356942f36d793a8e3559f3bfc9fcebe963d00d684f07"
+    },
+    {
+      "book_id": "G090_BOOK_003",
+      "path": "data/chunks/G090_BOOK_003.chunks.jsonl",
+      "sha256": "4a4197808522d6290137caaaa8222f3d155191933a9558e5fb9212c55bdc1a6e",
+      "cleaned_path": "data/cleaned/G090_BOOK_003.pages.jsonl",
+      "cleaned_sha256": "23709159d7015b9fefe6bfa0d4afc9f3ed2a2ca8325526649d052aed0e3d5831"
+    },
+    {
+      "book_id": "G090_BOOK_004",
+      "path": "data/chunks/G090_BOOK_004.chunks.jsonl",
+      "sha256": "49204404bf6f8e57687ebc405dddfa1bd992a7f940d6a5ecdd9944fd56dc9956",
+      "cleaned_path": "data/cleaned/G090_BOOK_004.pages.jsonl",
+      "cleaned_sha256": "e70dc4c811d9e57c27233dd481d8fb4f21c1cc595269acb63f2da34512148fd8"
+    },
+    {
+      "book_id": "G090_BOOK_005",
+      "path": "data/chunks/G090_BOOK_005.chunks.jsonl",
+      "sha256": "fe242b7380cde88fa986c4fd41bf80b19dcab8f8b804c5b4fa1de1eb7e369f09",
+      "cleaned_path": "data/cleaned/G090_BOOK_005.pages.jsonl",
+      "cleaned_sha256": "3d74dcde4a202f73c20408a12384241737c723bfb3cb9770190f541686bf0d11"
+    },
+    {
+      "book_id": "G090_BOOK_006",
+      "path": "data/chunks/G090_BOOK_006.chunks.jsonl",
+      "sha256": "fc079fe55cb800acfb4dfc6b9a5bfae5d4d0c360ce909d884a2a3c483f562d33",
+      "cleaned_path": "data/cleaned/G090_BOOK_006.pages.jsonl",
+      "cleaned_sha256": "badbe5497489398d2dfbf8b9fc0347c878d67928a5fa227eb3e198a3a681ea30"
+    },
+    {
+      "book_id": "G090_BOOK_007",
+      "path": "data/chunks/G090_BOOK_007.chunks.jsonl",
+      "sha256": "149308dba44235cb3cfc1a32d4a852674ace10de20756a04ec2da15d0ada7caf",
+      "cleaned_path": "data/cleaned/G090_BOOK_007.pages.jsonl",
+      "cleaned_sha256": "a0a2f04f13bb2c3c041d28ff7f6c3e090bf96c969c1509d0ac485ab2fc10fdfc"
+    },
+    {
+      "book_id": "G090_BOOK_008",
+      "path": "data/chunks/G090_BOOK_008.chunks.jsonl",
+      "sha256": "bb1bfe0b817181f4a7fb163ecb534d8bd3a47ddc911f7ed8effddb7b0a2b26b4",
+      "cleaned_path": "data/cleaned/G090_BOOK_008.pages.jsonl",
+      "cleaned_sha256": "81ba6c296065c295d61b2cff3fb098ab4c2cdacdf387020d44f0c31e0d51f12e"
+    },
+    {
+      "book_id": "G090_BOOK_009",
+      "path": "data/chunks/G090_BOOK_009.chunks.jsonl",
+      "sha256": "f09d4959cfbc3e68f89639b41ff772f0a25b741e3936f395e9efd42ec3f99097",
+      "cleaned_path": "data/cleaned/G090_BOOK_009.pages.jsonl",
+      "cleaned_sha256": "7bed31c25a3bb9071e4c77b49621b73a9c83c7006d63852305b51aeeeb072d2c"
+    },
+    {
+      "book_id": "G090_BOOK_010",
+      "path": "data/chunks/G090_BOOK_010.chunks.jsonl",
+      "sha256": "27412eff39fd3969a943f2d7282a02cc40586cddc09a0e86a99591ddcc4947e4",
+      "cleaned_path": "data/cleaned/G090_BOOK_010.pages.jsonl",
+      "cleaned_sha256": "b54f7577414c36670e4d5bd1a5b3747f00e2f153531dd8b3032d187f5ccd44e4"
+    },
+    {
+      "book_id": "G090_BOOK_011",
+      "path": "data/chunks/G090_BOOK_011.chunks.jsonl",
+      "sha256": "2b75c90b1daf9b9f77281112ca8739871246dc3c21ca10ab9022be39f5bedee7",
+      "cleaned_path": "data/cleaned/G090_BOOK_011.pages.jsonl",
+      "cleaned_sha256": "876fe4b76aa94673fe7e985c90e91e44797f14f0cc52fabd766e8fca95feb85d"
+    },
+    {
+      "book_id": "G090_BOOK_012",
+      "path": "data/chunks/G090_BOOK_012.chunks.jsonl",
+      "sha256": "6954633850c1839ee7b857cdc83a226b01b349136878c82a1f28542662ede81c",
+      "cleaned_path": "data/cleaned/G090_BOOK_012.pages.jsonl",
+      "cleaned_sha256": "73023fafb822e838a94e21a820e847a1a6ad575f9d7895aae8c31abca025b377"
+    },
+    {
+      "book_id": "G090_BOOK_013",
+      "path": "data/chunks/G090_BOOK_013.chunks.jsonl",
+      "sha256": "c5e4910ddc915e279bd4f3171942c5b9bab0617529449b6a800d6286bd543f36",
+      "cleaned_path": "data/cleaned/G090_BOOK_013.pages.jsonl",
+      "cleaned_sha256": "ff139beb0fbf62e058015671d2add0a15965c84e55a1527bc7f279c669b55d9d"
+    },
+    {
+      "book_id": "G090_BOOK_014",
+      "path": "data/chunks/G090_BOOK_014.chunks.jsonl",
+      "sha256": "2040baff51c91460d4e751392c97ae63c846eb8ad98dd86436ae0041f8715b75",
+      "cleaned_path": "data/cleaned/G090_BOOK_014.pages.jsonl",
+      "cleaned_sha256": "08fc62991f476009f1dd5ad6c121412951f09955f8b482ee54b3b8a122745d06"
+    },
+    {
+      "book_id": "G090_BOOK_015",
+      "path": "data/chunks/G090_BOOK_015.chunks.jsonl",
+      "sha256": "96f61acd29fc806605ab0fa8f5faa5585deb067e908a407285a1a688f94dd972",
+      "cleaned_path": "data/cleaned/G090_BOOK_015.pages.jsonl",
+      "cleaned_sha256": "639aa87f4a377c5cb3ff7fd72e3d9901c994b00b461e0357771e45dc651fc7e6"
+    },
+    {
+      "book_id": "G090_BOOK_016",
+      "path": "data/chunks/G090_BOOK_016.chunks.jsonl",
+      "sha256": "55ccde6ab576434ddd00935d7b70054bdfa3e8b020a0ecc614538c3a6e8fe2e9",
+      "cleaned_path": "data/cleaned/G090_BOOK_016.pages.jsonl",
+      "cleaned_sha256": "adb19dea4713945a2658e9fad3a7cd595fce2a506595ebb15ec41e7c7a95e75a"
+    },
+    {
+      "book_id": "G090_BOOK_017",
+      "path": "data/chunks/G090_BOOK_017.chunks.jsonl",
+      "sha256": "de34c967ddc3d65bd7b9c8bd785ba804ca96e986b27eef959ae065cc276f491a",
+      "cleaned_path": "data/cleaned/G090_BOOK_017.pages.jsonl",
+      "cleaned_sha256": "d902f4be15c5aea0d37cbc8999abb67a8e0c3b535fedced4b9a381fce0fa65e0"
+    },
+    {
+      "book_id": "G090_BOOK_018",
+      "path": "data/chunks/G090_BOOK_018.chunks.jsonl",
+      "sha256": "366e3db45313437f362e9fc303d5147e1351fd4446eafa9824b669c132fee0ec",
+      "cleaned_path": "data/cleaned/G090_BOOK_018.pages.jsonl",
+      "cleaned_sha256": "d07a3c9faba7a8fda495ac927235311aa654258abb4412631c12d88263caf013"
+    }
+  ],
+  "outputs": [
+    {
+      "book_id": "G090_BOOK_001",
+      "path": "data/embedding/G090_BOOK_001.chunks.jsonl",
+      "sha256": "3128ab47c456e3a5907a78006008d11aa8c860e5d588d0ea65f5605b030b9be1",
+      "passages": 418
+    },
+    {
+      "book_id": "G090_BOOK_002",
+      "path": "data/embedding/G090_BOOK_002.chunks.jsonl",
+      "sha256": "ff0281caa4f0fc9570f1f4fb2d262db7fccc084174bd7951fd7e0dcbce775550",
+      "passages": 1648
+    },
+    {
+      "book_id": "G090_BOOK_003",
+      "path": "data/embedding/G090_BOOK_003.chunks.jsonl",
+      "sha256": "5ee7bf29d50240e7c43d2e46d49f9ecf6cab92a183d97a31e4cf1124b1041624",
+      "passages": 653
+    },
+    {
+      "book_id": "G090_BOOK_004",
+      "path": "data/embedding/G090_BOOK_004.chunks.jsonl",
+      "sha256": "47fceb733d5bdd4c8870ceb13820866ac2d20bcf1105622b1152281542338005",
+      "passages": 719
+    },
+    {
+      "book_id": "G090_BOOK_005",
+      "path": "data/embedding/G090_BOOK_005.chunks.jsonl",
+      "sha256": "55f3b5d13ea10bba459698c8f3747d82f6d9bf0068e5648f73e8d7119c1d1a24",
+      "passages": 1370
+    },
+    {
+      "book_id": "G090_BOOK_006",
+      "path": "data/embedding/G090_BOOK_006.chunks.jsonl",
+      "sha256": "5eee99a37018f1071708bfb6f74fad723f255b4acd57b27463d3581cf3fc56cd",
+      "passages": 2176
+    },
+    {
+      "book_id": "G090_BOOK_007",
+      "path": "data/embedding/G090_BOOK_007.chunks.jsonl",
+      "sha256": "f100aac6eeb3aea055be811160d3f30bf9d364fa4f0865fdcabe7a4b93479a27",
+      "passages": 2786
+    },
+    {
+      "book_id": "G090_BOOK_008",
+      "path": "data/embedding/G090_BOOK_008.chunks.jsonl",
+      "sha256": "a6d5764ee0438108f62f18a35b7742537e822ac9afbdad7c3b3c48130951bbc9",
+      "passages": 1845
+    },
+    {
+      "book_id": "G090_BOOK_009",
+      "path": "data/embedding/G090_BOOK_009.chunks.jsonl",
+      "sha256": "32125267b1933067e2167b263fe3752561f7f530ed06c9a16c863bec38e81d23",
+      "passages": 939
+    },
+    {
+      "book_id": "G090_BOOK_010",
+      "path": "data/embedding/G090_BOOK_010.chunks.jsonl",
+      "sha256": "798ea03320ec4b3a247f02a2a8839d6b1ac256c71be7267c41cb01925714ae27",
+      "passages": 1398
+    },
+    {
+      "book_id": "G090_BOOK_011",
+      "path": "data/embedding/G090_BOOK_011.chunks.jsonl",
+      "sha256": "735e19efe1b7f668fd628d6df0010de718cb7d0f5f20794ef4de95052f8a1cad",
+      "passages": 1912
+    },
+    {
+      "book_id": "G090_BOOK_012",
+      "path": "data/embedding/G090_BOOK_012.chunks.jsonl",
+      "sha256": "a6bac29c4c59c65416088aed0ed1f84766b34b1950051cda37c16a763734d515",
+      "passages": 1294
+    },
+    {
+      "book_id": "G090_BOOK_013",
+      "path": "data/embedding/G090_BOOK_013.chunks.jsonl",
+      "sha256": "b19105ad60c84fe21aa0dced525c85be47c513d6ab4c8ccc0b6e185950c71e60",
+      "passages": 2166
+    },
+    {
+      "book_id": "G090_BOOK_014",
+      "path": "data/embedding/G090_BOOK_014.chunks.jsonl",
+      "sha256": "f8d95d911381b66b54d8016b71ba3c556f23e35718074d0eb6b6e05824bb3992",
+      "passages": 629
+    },
+    {
+      "book_id": "G090_BOOK_015",
+      "path": "data/embedding/G090_BOOK_015.chunks.jsonl",
+      "sha256": "b9969311c0cb1b8973fcdb3fe7eb389de4d613ea6d6a054976cbb4a03cc766ee",
+      "passages": 1459
+    },
+    {
+      "book_id": "G090_BOOK_016",
+      "path": "data/embedding/G090_BOOK_016.chunks.jsonl",
+      "sha256": "236f77ca092154a66729edf655347259a4c2c79157bf169d8f162b17556985bb",
+      "passages": 1387
+    },
+    {
+      "book_id": "G090_BOOK_017",
+      "path": "data/embedding/G090_BOOK_017.chunks.jsonl",
+      "sha256": "eccabccaa996c20ea112ec8924bbe6428e0cfb2f5eae5db026fa61130c81b679",
+      "passages": 654
+    },
+    {
+      "book_id": "G090_BOOK_018",
+      "path": "data/embedding/G090_BOOK_018.chunks.jsonl",
+      "sha256": "6cde9f064eed1b3a08e5de77e906ae5f3a757a29c04867f45579ff5bd2d57245",
+      "passages": 1137
+    }
+  ],
+  "input_chunks": 26238,
+  "excluded_chunks": 604,
+  "retained_source_chunks": 25634,
+  "unique_passages": 24590,
+  "duplicate_copies_merged": 1044,
+  "books_represented": [
+    "G090_BOOK_001",
+    "G090_BOOK_002",
+    "G090_BOOK_003",
+    "G090_BOOK_004",
+    "G090_BOOK_005",
+    "G090_BOOK_006",
+    "G090_BOOK_007",
+    "G090_BOOK_008",
+    "G090_BOOK_009",
+    "G090_BOOK_010",
+    "G090_BOOK_011",
+    "G090_BOOK_012",
+    "G090_BOOK_013",
+    "G090_BOOK_014",
+    "G090_BOOK_015",
+    "G090_BOOK_016",
+    "G090_BOOK_017",
+    "G090_BOOK_018"
+  ],
+  "exclusion_log": "evaluation/corpus_exclusions.jsonl",
+  "excluded_by_book": {
+    "G090_BOOK_001": 8,
+    "G090_BOOK_002": 16,
+    "G090_BOOK_003": 9,
+    "G090_BOOK_004": 6,
+    "G090_BOOK_005": 22,
+    "G090_BOOK_006": 21,
+    "G090_BOOK_007": 26,
+    "G090_BOOK_008": 21,
+    "G090_BOOK_009": 20,
+    "G090_BOOK_010": 8,
+    "G090_BOOK_011": 169,
+    "G090_BOOK_012": 14,
+    "G090_BOOK_013": 116,
+    "G090_BOOK_014": 16,
+    "G090_BOOK_015": 19,
+    "G090_BOOK_016": 22,
+    "G090_BOOK_017": 16,
+    "G090_BOOK_018": 75
+  },
+  "deduplication": "Exact embedding-input equality, retaining all original citations in sources"
+}

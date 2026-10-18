@@ -1,0 +1,301 @@
+{
+  "version": 1,
+  "page_reference_type": "pdf_position",
+  "review_basis": "Manual inspection of the existing cleaned page text on 2026-10-18. Keep technical forewords, prefaces, introductions, chapter outlines, appendices and reference material; retain mixed technical/acknowledgment pages.",
+  "deduplication": "Exact final embedding-input text; preserve all original source references.",
+  "books": {
+    "G090_BOOK_001": {
+      "source_sha256": "6bc5e8bc2c08b5c8292c628f12ed36337bf1c639d372489ab69073402850284a",
+      "pdf_page_count": 287,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 11,
+          "reason": "Title, publisher series advertisements, copyright, dedication and global contents"
+        }
+      ]
+    },
+    "G090_BOOK_002": {
+      "source_sha256": "b213692a064ad0273e2099d62df9bbcdd2b71643afdb279adc008a9f14b3bd5d",
+      "pdf_page_count": 801,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 19,
+          "reason": "Title, publisher credits, dedication and global contents"
+        },
+        {
+          "start": 24,
+          "end": 25,
+          "reason": "Repeated title and blank page"
+        }
+      ]
+    },
+    "G090_BOOK_003": {
+      "source_sha256": "b1f814d0b634ef3198c8484bc3bbbc7692d6dfb3a70b0b902d2d99502a285225",
+      "pdf_page_count": 481,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 5,
+          "reason": "Title, copyright and global contents"
+        },
+        {
+          "start": 8,
+          "end": 10,
+          "reason": "Acknowledgments, publisher inclusion statement and author biography"
+        }
+      ]
+    },
+    "G090_BOOK_004": {
+      "source_sha256": "0da1313d630501a09ce080f3c6286669c1e9176ebc79ba66859baa781788c22f",
+      "pdf_page_count": 730,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 4,
+          "reason": "Publisher, copyright, dedication and blank pages"
+        },
+        {
+          "start": 8,
+          "end": 8,
+          "reason": "Acknowledgments"
+        },
+        {
+          "start": 9,
+          "end": 12,
+          "reason": "Global contents"
+        }
+      ]
+    },
+    "G090_BOOK_005": {
+      "source_sha256": "8106bdca7a73060b83534a835c8420f90bb7f4b26817d42f1f63681eea6873a3",
+      "pdf_page_count": 735,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 12,
+          "reason": "Title, copyright, dedication and author biographies"
+        },
+        {
+          "start": 17,
+          "end": 24,
+          "reason": "Acknowledgments, publisher advertisement and global contents"
+        }
+      ]
+    },
+    "G090_BOOK_006": {
+      "source_sha256": "321352279a3e530f67ad6ef9cb2dc820ad072324ab474a2a16af31cdb73abdb9",
+      "pdf_page_count": 1122,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 19,
+          "reason": "Title, publisher, dedication, marketing, contents and author biographies"
+        }
+      ]
+    },
+    "G090_BOOK_007": {
+      "source_sha256": "2fe5a34d8f4694a083ec8a6251ed7dd98fe873ac303a445b09db2a3d80885452",
+      "pdf_page_count": 1354,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 7,
+          "reason": "Endorsements, title, author biographies and publisher credits"
+        },
+        {
+          "start": 10,
+          "end": 13,
+          "reason": "Global contents"
+        },
+        {
+          "start": 21,
+          "end": 25,
+          "reason": "Acknowledgments and contributors"
+        }
+      ]
+    },
+    "G090_BOOK_008": {
+      "source_sha256": "991116441b9d966384b69565479b40f7592bb99a8560788f1c2939d5f7d944f4",
+      "pdf_page_count": 1074,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 15,
+          "reason": "Endorsements, title, author biographies, copyright, image credits and global contents"
+        },
+        {
+          "start": 24,
+          "end": 26,
+          "reason": "Acknowledgments and blank page"
+        }
+      ]
+    },
+    "G090_BOOK_009": {
+      "source_sha256": "1cb623a22efa409acafe6d0d2b089e6041346a81798572d21d1626714d525cea",
+      "pdf_page_count": 1049,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 15,
+          "reason": "Endorsements, title, author biographies, copyright, image credits and global contents"
+        },
+        {
+          "start": 24,
+          "end": 26,
+          "reason": "Acknowledgments and blank page"
+        }
+      ]
+    },
+    "G090_BOOK_010": {
+      "source_sha256": "7fd9efeeb0744004d41487d841c3d934e04dd2be5ba5961c063517cccf9fc1e7",
+      "pdf_page_count": 711,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 6,
+          "reason": "Endorsements, title, publisher credits and dedication"
+        },
+        {
+          "start": 12,
+          "end": 13,
+          "reason": "Acknowledgments and blank page"
+        }
+      ]
+    },
+    "G090_BOOK_011": {
+      "source_sha256": "00c7e829cbc3fe5959d5d40366c3a262ad0bc58d818e8f462a7eaccd43779052",
+      "pdf_page_count": 1017,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 31,
+          "reason": "Endorsements, title, publisher credits, dedication, epigraph and global contents"
+        },
+        {
+          "start": 35,
+          "end": 35,
+          "reason": "Acknowledgments"
+        }
+      ]
+    },
+    "G090_BOOK_012": {
+      "source_sha256": "046a722a832c4b0b9288230319d41e6550e2c7a932aaa766fbac4b0279d0ebd2",
+      "pdf_page_count": 658,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 10,
+          "reason": "Title, dedication, global contents and author biographies"
+        }
+      ]
+    },
+    "G090_BOOK_013": {
+      "source_sha256": "7dda02269d11824e71f7ba6a7cf303c2f2433696efdc199d1e9770ea7c8824be",
+      "pdf_page_count": 877,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 2,
+          "reason": "Title and blank page"
+        },
+        {
+          "start": 6,
+          "end": 15,
+          "reason": "Global contents and blank page"
+        }
+      ]
+    },
+    "G090_BOOK_014": {
+      "source_sha256": "9143743bd6fc507f61b614e89ef6ea00af168c1acac25159533c788c4c4adec1",
+      "pdf_page_count": 705,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 2,
+          "reason": "Title and publisher copyright"
+        },
+        {
+          "start": 4,
+          "end": 8,
+          "reason": "Global contents"
+        }
+      ]
+    },
+    "G090_BOOK_015": {
+      "source_sha256": "72a7565118f84e6a88ca50997583e50b2a8b43f6106ef73ed0079ece26a421c2",
+      "pdf_page_count": 881,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 13,
+          "reason": "Title, copyright, dedication, book website, global contents and author biography"
+        },
+        {
+          "start": 19,
+          "end": 19,
+          "reason": "Acknowledgments"
+        },
+        {
+          "start": 21,
+          "end": 23,
+          "reason": "Advertisements for other books and blank page"
+        }
+      ]
+    },
+    "G090_BOOK_016": {
+      "source_sha256": "243ef7f32a6927fe96b78d692bde20a181e8f731e1cdb13e01a02eb77f5fd17d",
+      "pdf_page_count": 699,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 19,
+          "reason": "Opening cartoon, title, publisher credits, dedication and global contents"
+        },
+        {
+          "start": 26,
+          "end": 27,
+          "reason": "Acknowledgments and author biography"
+        }
+      ]
+    },
+    "G090_BOOK_017": {
+      "source_sha256": "4faf69ef28c65cd42905c572611a3d9f77e01f72f927b8d252eae104fb462f91",
+      "pdf_page_count": 427,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 13,
+          "reason": "Title, copyright, dedication, global contents and global list of figures"
+        },
+        {
+          "start": 23,
+          "end": 23,
+          "reason": "Acknowledgments"
+        }
+      ]
+    },
+    "G090_BOOK_018": {
+      "source_sha256": "3b0e291733e92b49f234fff08bc2671e96632725ce7616f6c03f766e19082413",
+      "pdf_page_count": 629,
+      "excluded_ranges": [
+        {
+          "start": 1,
+          "end": 10,
+          "reason": "Title, publisher copyright, dedication and global contents"
+        },
+        {
+          "start": 14,
+          "end": 15,
+          "reason": "Second-edition acknowledgments"
+        },
+        {
+          "start": 22,
+          "end": 23,
+          "reason": "First-edition acknowledgments"
+        }
+      ]
+    }
+  }
+}

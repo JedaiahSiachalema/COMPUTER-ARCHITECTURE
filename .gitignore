@@ -30,6 +30,7 @@ tmp/
 data/extracted/
 data/cleaned/
 data/chunks/
+data/embedding/
 data/passages.jsonl
 data/book_manifest.backup.json
 artifacts/index/*
